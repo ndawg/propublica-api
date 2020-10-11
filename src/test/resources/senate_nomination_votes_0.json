@@ -1,0 +1,852 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2019 Pro Publica Inc. All Rights Reserved.",
+  "results": [
+    {
+      "offset": 0,
+      "num_results": 0,
+      "votes": [
+        {
+          "congress": 116,
+          "chamber": "Senate",
+          "session": 1,
+          "roll_call": 426,
+          "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00426.xml",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress\u003d116\u0026session\u003d1\u0026vote\u003d00426",
+          "vote_uri": "https://api.propublica.org/congress/v1/116/senate/sessions/1/votes/426.json",
+          "question": "On the Nomination",
+          "description": "Stephen E. Biegun, of Michigan, to be Deputy Secretary of State",
+          "vote_type": "1/2",
+          "date": "2019-12-19",
+          "time": "16:08",
+          "result": "Nomination Confirmed",
+          "democratic": {
+            "yes": "38",
+            "no": "3",
+            "present": "0",
+            "not_voting": "4",
+            "majority_position": "Yes"
+          },
+          "republican": {
+            "yes": "51",
+            "no": "0",
+            "present": "0",
+            "not_voting": "2",
+            "majority_position": "Yes"
+          },
+          "independent": {
+            "yes": "1",
+            "no": "0",
+            "present": "0",
+            "not_voting": "1"
+          },
+          "total": {
+            "yes": "90",
+            "no": "3",
+            "present": "0",
+            "not_voting": "7",
+            "margin": "87"
+          }
+        },
+        {
+          "congress": 116,
+          "chamber": "Senate",
+          "session": 1,
+          "roll_call": 425,
+          "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00425.xml",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress\u003d116\u0026session\u003d1\u0026vote\u003d00425",
+          "vote_uri": "https://api.propublica.org/congress/v1/116/senate/sessions/1/votes/425.json",
+          "question": "On the Nomination",
+          "description": "Lewis J. Liman, of New York, to be United States District Judge for the Southern District of New York",
+          "vote_type": "1/2",
+          "date": "2019-12-19",
+          "time": "15:54",
+          "result": "Nomination Confirmed",
+          "democratic": {
+            "yes": "41",
+            "no": "0",
+            "present": "0",
+            "not_voting": "4",
+            "majority_position": "Yes"
+          },
+          "republican": {
+            "yes": "22",
+            "no": "29",
+            "present": "0",
+            "not_voting": "2",
+            "majority_position": "No"
+          },
+          "independent": {
+            "yes": "1",
+            "no": "0",
+            "present": "0",
+            "not_voting": "1"
+          },
+          "total": {
+            "yes": "64",
+            "no": "29",
+            "present": "0",
+            "not_voting": "7",
+            "margin": "35"
+          }
+        },
+        {
+          "congress": 116,
+          "chamber": "Senate",
+          "session": 1,
+          "roll_call": 424,
+          "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00424.xml",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress\u003d116\u0026session\u003d1\u0026vote\u003d00424",
+          "vote_uri": "https://api.propublica.org/congress/v1/116/senate/sessions/1/votes/424.json",
+          "question": "On the Nomination",
+          "description": "Robert J. Colville, of Pennsylvania, to be United States District Judge for the Western District of Pennsylvania",
+          "vote_type": "1/2",
+          "date": "2019-12-19",
+          "time": "15:40",
+          "result": "Nomination Confirmed",
+          "democratic": {
+            "yes": "41",
+            "no": "0",
+            "present": "0",
+            "not_voting": "4",
+            "majority_position": "Yes"
+          },
+          "republican": {
+            "yes": "24",
+            "no": "27",
+            "present": "0",
+            "not_voting": "2",
+            "majority_position": "No"
+          },
+          "independent": {
+            "yes": "1",
+            "no": "0",
+            "present": "0",
+            "not_voting": "1"
+          },
+          "total": {
+            "yes": "66",
+            "no": "27",
+            "present": "0",
+            "not_voting": "7",
+            "margin": "39"
+          }
+        },
+        {
+          "congress": 116,
+          "chamber": "Senate",
+          "session": 1,
+          "roll_call": 423,
+          "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00423.xml",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress\u003d116\u0026session\u003d1\u0026vote\u003d00423",
+          "vote_uri": "https://api.propublica.org/congress/v1/116/senate/sessions/1/votes/423.json",
+          "question": "On the Nomination",
+          "description": "Kea Whetzal Riggs, of New Mexico, to be United States District Judge for the District of New Mexico",
+          "vote_type": "1/2",
+          "date": "2019-12-19",
+          "time": "15:25",
+          "result": "Nomination Confirmed",
+          "democratic": {
+            "yes": "41",
+            "no": "0",
+            "present": "0",
+            "not_voting": "4",
+            "majority_position": "Yes"
+          },
+          "republican": {
+            "yes": "52",
+            "no": "0",
+            "present": "0",
+            "not_voting": "1",
+            "majority_position": "Yes"
+          },
+          "independent": {
+            "yes": "1",
+            "no": "0",
+            "present": "0",
+            "not_voting": "1"
+          },
+          "total": {
+            "yes": "94",
+            "no": "0",
+            "present": "0",
+            "not_voting": "6",
+            "margin": "94"
+          }
+        },
+        {
+          "congress": 116,
+          "chamber": "Senate",
+          "session": 1,
+          "roll_call": 422,
+          "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00422.xml",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress\u003d116\u0026session\u003d1\u0026vote\u003d00422",
+          "vote_uri": "https://api.propublica.org/congress/v1/116/senate/sessions/1/votes/422.json",
+          "question": "On the Nomination",
+          "description": "Mary Kay Vyskocil, of New York, to be United States District Judge for the Southern District of New York",
+          "vote_type": "1/2",
+          "date": "2019-12-19",
+          "time": "15:14",
+          "result": "Nomination Confirmed",
+          "democratic": {
+            "yes": "38",
+            "no": "3",
+            "present": "0",
+            "not_voting": "4",
+            "majority_position": "Yes"
+          },
+          "republican": {
+            "yes": "52",
+            "no": "0",
+            "present": "0",
+            "not_voting": "1",
+            "majority_position": "Yes"
+          },
+          "independent": {
+            "yes": "1",
+            "no": "0",
+            "present": "0",
+            "not_voting": "1"
+          },
+          "total": {
+            "yes": "91",
+            "no": "3",
+            "present": "0",
+            "not_voting": "6",
+            "margin": "88"
+          }
+        },
+        {
+          "congress": 116,
+          "chamber": "Senate",
+          "session": 1,
+          "roll_call": 421,
+          "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00421.xml",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress\u003d116\u0026session\u003d1\u0026vote\u003d00421",
+          "vote_uri": "https://api.propublica.org/congress/v1/116/senate/sessions/1/votes/421.json",
+          "question": "On the Nomination",
+          "description": "Bernard Maurice Jones II, of Oklahoma, to be United States District Judge for the Western District of Oklahoma",
+          "vote_type": "1/2",
+          "date": "2019-12-19",
+          "time": "15:01",
+          "result": "Nomination Confirmed",
+          "democratic": {
+            "yes": "38",
+            "no": "3",
+            "present": "0",
+            "not_voting": "4",
+            "majority_position": "Yes"
+          },
+          "republican": {
+            "yes": "52",
+            "no": "0",
+            "present": "0",
+            "not_voting": "1",
+            "majority_position": "Yes"
+          },
+          "independent": {
+            "yes": "1",
+            "no": "0",
+            "present": "0",
+            "not_voting": "1"
+          },
+          "total": {
+            "yes": "91",
+            "no": "3",
+            "present": "0",
+            "not_voting": "6",
+            "margin": "88"
+          }
+        },
+        {
+          "congress": 116,
+          "chamber": "Senate",
+          "session": 1,
+          "roll_call": 420,
+          "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00420.xml",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress\u003d116\u0026session\u003d1\u0026vote\u003d00420",
+          "vote_uri": "https://api.propublica.org/congress/v1/116/senate/sessions/1/votes/420.json",
+          "question": "On the Nomination",
+          "description": "John M. Gallagher, of Pennsylvania, to be United States District Judge for the Eastern District of Pennsylvania",
+          "vote_type": "1/2",
+          "date": "2019-12-19",
+          "time": "14:49",
+          "result": "Nomination Confirmed",
+          "democratic": {
+            "yes": "31",
+            "no": "9",
+            "present": "0",
+            "not_voting": "5",
+            "majority_position": "Yes"
+          },
+          "republican": {
+            "yes": "51",
+            "no": "0",
+            "present": "0",
+            "not_voting": "2",
+            "majority_position": "Yes"
+          },
+          "independent": {
+            "yes": "1",
+            "no": "0",
+            "present": "0",
+            "not_voting": "1"
+          },
+          "total": {
+            "yes": "83",
+            "no": "9",
+            "present": "0",
+            "not_voting": "8",
+            "margin": "74"
+          }
+        },
+        {
+          "congress": 116,
+          "chamber": "Senate",
+          "session": 1,
+          "roll_call": 419,
+          "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00419.xml",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress\u003d116\u0026session\u003d1\u0026vote\u003d00419",
+          "vote_uri": "https://api.propublica.org/congress/v1/116/senate/sessions/1/votes/419.json",
+          "question": "On the Nomination",
+          "description": "Jodi W. Dishman, of Oklahoma, to be United States District Judge for the Western District of Oklahoma",
+          "vote_type": "1/2",
+          "date": "2019-12-19",
+          "time": "14:33",
+          "result": "Nomination Confirmed",
+          "democratic": {
+            "yes": "23",
+            "no": "17",
+            "present": "0",
+            "not_voting": "5",
+            "majority_position": "Yes"
+          },
+          "republican": {
+            "yes": "51",
+            "no": "0",
+            "present": "0",
+            "not_voting": "2",
+            "majority_position": "Yes"
+          },
+          "independent": {
+            "yes": "1",
+            "no": "0",
+            "present": "0",
+            "not_voting": "1"
+          },
+          "total": {
+            "yes": "75",
+            "no": "17",
+            "present": "0",
+            "not_voting": "8",
+            "margin": "58"
+          }
+        },
+        {
+          "congress": 116,
+          "chamber": "Senate",
+          "session": 1,
+          "roll_call": 418,
+          "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00418.xml",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress\u003d116\u0026session\u003d1\u0026vote\u003d00418",
+          "vote_uri": "https://api.propublica.org/congress/v1/116/senate/sessions/1/votes/418.json",
+          "question": "On the Nomination",
+          "description": "Daniel Mack Traynor, of North Dakota, to be United States District Judge for the District of North Dakota",
+          "vote_type": "1/2",
+          "date": "2019-12-19",
+          "time": "14:20",
+          "result": "Nomination Confirmed",
+          "democratic": {
+            "yes": "0",
+            "no": "40",
+            "present": "0",
+            "not_voting": "5",
+            "majority_position": "No"
+          },
+          "republican": {
+            "yes": "51",
+            "no": "0",
+            "present": "0",
+            "not_voting": "2",
+            "majority_position": "Yes"
+          },
+          "independent": {
+            "yes": "0",
+            "no": "1",
+            "present": "0",
+            "not_voting": "1"
+          },
+          "total": {
+            "yes": "51",
+            "no": "41",
+            "present": "0",
+            "not_voting": "8",
+            "margin": "10"
+          }
+        },
+        {
+          "congress": 116,
+          "chamber": "Senate",
+          "session": 1,
+          "roll_call": 417,
+          "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00417.xml",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress\u003d116\u0026session\u003d1\u0026vote\u003d00417",
+          "vote_uri": "https://api.propublica.org/congress/v1/116/senate/sessions/1/votes/417.json",
+          "question": "On the Nomination",
+          "description": "Karen Spencer Marston, of Pennsylvania, to be United States District Judge for the Eastern District of Pennsylvania",
+          "vote_type": "1/2",
+          "date": "2019-12-19",
+          "time": "14:08",
+          "result": "Nomination Confirmed",
+          "democratic": {
+            "yes": "35",
+            "no": "6",
+            "present": "0",
+            "not_voting": "4",
+            "majority_position": "Yes"
+          },
+          "republican": {
+            "yes": "51",
+            "no": "0",
+            "present": "0",
+            "not_voting": "2",
+            "majority_position": "Yes"
+          },
+          "independent": {
+            "yes": "1",
+            "no": "0",
+            "present": "0",
+            "not_voting": "1"
+          },
+          "total": {
+            "yes": "87",
+            "no": "6",
+            "present": "0",
+            "not_voting": "7",
+            "margin": "81"
+          }
+        },
+        {
+          "congress": 116,
+          "chamber": "Senate",
+          "session": 1,
+          "roll_call": 416,
+          "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00416.xml",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress\u003d116\u0026session\u003d1\u0026vote\u003d00416",
+          "vote_uri": "https://api.propublica.org/congress/v1/116/senate/sessions/1/votes/416.json",
+          "question": "On the Nomination",
+          "description": "Anuraag Singhal, of Florida, to be United States District Judge for the Southern District of Florida",
+          "vote_type": "1/2",
+          "date": "2019-12-19",
+          "time": "13:46",
+          "result": "Nomination Confirmed",
+          "democratic": {
+            "yes": "24",
+            "no": "17",
+            "present": "0",
+            "not_voting": "4",
+            "majority_position": "Yes"
+          },
+          "republican": {
+            "yes": "51",
+            "no": "0",
+            "present": "0",
+            "not_voting": "2",
+            "majority_position": "Yes"
+          },
+          "independent": {
+            "yes": "1",
+            "no": "0",
+            "present": "0",
+            "not_voting": "1"
+          },
+          "total": {
+            "yes": "76",
+            "no": "17",
+            "present": "0",
+            "not_voting": "7",
+            "margin": "59"
+          }
+        },
+        {
+          "congress": 116,
+          "chamber": "Senate",
+          "session": 1,
+          "roll_call": 402,
+          "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00402.xml",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress\u003d116\u0026session\u003d1\u0026vote\u003d00402",
+          "vote_uri": "https://api.propublica.org/congress/v1/116/senate/sessions/1/votes/402.json",
+          "question": "On the Nomination",
+          "description": "Matthew Walden McFarland, of Ohio, to be United States District Judge for the Southern District of Ohio",
+          "vote_type": "1/2",
+          "date": "2019-12-18",
+          "time": "13:11",
+          "result": "Nomination Confirmed",
+          "democratic": {
+            "yes": "4",
+            "no": "37",
+            "present": "0",
+            "not_voting": "4",
+            "majority_position": "No"
+          },
+          "republican": {
+            "yes": "52",
+            "no": "0",
+            "present": "0",
+            "not_voting": "1",
+            "majority_position": "Yes"
+          },
+          "independent": {
+            "yes": "0",
+            "no": "1",
+            "present": "0",
+            "not_voting": "1"
+          },
+          "total": {
+            "yes": "56",
+            "no": "38",
+            "present": "0",
+            "not_voting": "6",
+            "margin": "18"
+          }
+        },
+        {
+          "congress": 116,
+          "chamber": "Senate",
+          "session": 1,
+          "roll_call": 397,
+          "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00397.xml",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress\u003d116\u0026session\u003d1\u0026vote\u003d00397",
+          "vote_uri": "https://api.propublica.org/congress/v1/116/senate/sessions/1/votes/397.json",
+          "question": "On the Nomination",
+          "description": "Stephen Hahn, of Texas, to be Commissioner of Food and Drugs, Department of Health and Human Services",
+          "vote_type": "1/2",
+          "date": "2019-12-12",
+          "time": "13:43",
+          "result": "Nomination Confirmed",
+          "democratic": {
+            "yes": "23",
+            "no": "17",
+            "present": "0",
+            "not_voting": "5",
+            "majority_position": "Yes"
+          },
+          "republican": {
+            "yes": "49",
+            "no": "0",
+            "present": "0",
+            "not_voting": "4",
+            "majority_position": "Yes"
+          },
+          "independent": {
+            "yes": "0",
+            "no": "1",
+            "present": "0",
+            "not_voting": "1"
+          },
+          "total": {
+            "yes": "72",
+            "no": "18",
+            "present": "0",
+            "not_voting": "10",
+            "margin": "54"
+          }
+        },
+        {
+          "congress": 116,
+          "chamber": "Senate",
+          "session": 1,
+          "roll_call": 396,
+          "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00396.xml",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress\u003d116\u0026session\u003d1\u0026vote\u003d00396",
+          "vote_uri": "https://api.propublica.org/congress/v1/116/senate/sessions/1/votes/396.json",
+          "question": "On the Nomination",
+          "description": "John Joseph Sullivan, of Maryland, to be Ambassador to the Russian Federation",
+          "vote_type": "1/2",
+          "date": "2019-12-12",
+          "time": "12:23",
+          "result": "Nomination Confirmed",
+          "democratic": {
+            "yes": "19",
+            "no": "22",
+            "present": "0",
+            "not_voting": "4",
+            "majority_position": "None"
+          },
+          "republican": {
+            "yes": "50",
+            "no": "0",
+            "present": "0",
+            "not_voting": "3",
+            "majority_position": "Yes"
+          },
+          "independent": {
+            "yes": "1",
+            "no": "0",
+            "present": "0",
+            "not_voting": "1"
+          },
+          "total": {
+            "yes": "70",
+            "no": "22",
+            "present": "0",
+            "not_voting": "8",
+            "margin": "48"
+          }
+        },
+        {
+          "congress": 116,
+          "chamber": "Senate",
+          "session": 1,
+          "roll_call": 395,
+          "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00395.xml",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress\u003d116\u0026session\u003d1\u0026vote\u003d00395",
+          "vote_uri": "https://api.propublica.org/congress/v1/116/senate/sessions/1/votes/395.json",
+          "question": "On the Nomination",
+          "description": "Aurelia Skipwith, of Indiana, to be Director of the United States Fish and Wildlife Service",
+          "vote_type": "1/2",
+          "date": "2019-12-12",
+          "time": "11:45",
+          "result": "Nomination Confirmed",
+          "democratic": {
+            "yes": "3",
+            "no": "38",
+            "present": "0",
+            "not_voting": "4",
+            "majority_position": "No"
+          },
+          "republican": {
+            "yes": "49",
+            "no": "0",
+            "present": "0",
+            "not_voting": "4",
+            "majority_position": "Yes"
+          },
+          "independent": {
+            "yes": "0",
+            "no": "1",
+            "present": "0",
+            "not_voting": "1"
+          },
+          "total": {
+            "yes": "52",
+            "no": "39",
+            "present": "0",
+            "not_voting": "9",
+            "margin": "13"
+          }
+        },
+        {
+          "congress": 116,
+          "chamber": "Senate",
+          "session": 1,
+          "roll_call": 391,
+          "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00391.xml",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress\u003d116\u0026session\u003d1\u0026vote\u003d00391",
+          "vote_uri": "https://api.propublica.org/congress/v1/116/senate/sessions/1/votes/391.json",
+          "question": "On the Nomination",
+          "description": "Lawrence VanDyke, of Nevada, to be United States Circuit Judge for the Ninth Circuit",
+          "vote_type": "1/2",
+          "date": "2019-12-11",
+          "time": "16:08",
+          "result": "Nomination Confirmed",
+          "democratic": {
+            "yes": "0",
+            "no": "42",
+            "present": "0",
+            "not_voting": "3",
+            "majority_position": "No"
+          },
+          "republican": {
+            "yes": "51",
+            "no": "1",
+            "present": "0",
+            "not_voting": "1",
+            "majority_position": "Yes"
+          },
+          "independent": {
+            "yes": "0",
+            "no": "1",
+            "present": "0",
+            "not_voting": "1"
+          },
+          "total": {
+            "yes": "51",
+            "no": "44",
+            "present": "0",
+            "not_voting": "5",
+            "margin": "7"
+          }
+        },
+        {
+          "congress": 116,
+          "chamber": "Senate",
+          "session": 1,
+          "roll_call": 387,
+          "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00387.xml",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress\u003d116\u0026session\u003d1\u0026vote\u003d00387",
+          "vote_uri": "https://api.propublica.org/congress/v1/116/senate/sessions/1/votes/387.json",
+          "question": "On the Nomination",
+          "description": "Patrick J. Bumatay, of California, to be United States Circuit Judge for the Ninth Circuit",
+          "vote_type": "1/2",
+          "date": "2019-12-10",
+          "time": "14:15",
+          "result": "Nomination Confirmed",
+          "democratic": {
+            "yes": "0",
+            "no": "39",
+            "present": "0",
+            "not_voting": "6",
+            "majority_position": "No"
+          },
+          "republican": {
+            "yes": "53",
+            "no": "0",
+            "present": "0",
+            "not_voting": "0",
+            "majority_position": "Yes"
+          },
+          "independent": {
+            "yes": "0",
+            "no": "1",
+            "present": "0",
+            "not_voting": "1"
+          },
+          "total": {
+            "yes": "53",
+            "no": "40",
+            "present": "0",
+            "not_voting": "7",
+            "margin": "13"
+          }
+        },
+        {
+          "congress": 116,
+          "chamber": "Senate",
+          "session": 1,
+          "roll_call": 385,
+          "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00385.xml",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress\u003d116\u0026session\u003d1\u0026vote\u003d00385",
+          "vote_uri": "https://api.propublica.org/congress/v1/116/senate/sessions/1/votes/385.json",
+          "question": "On the Nomination",
+          "description": "Robert M. Duncan, of Kentucky, to be a Governor of the United States Postal Service for a term expiring December 8, 2025",
+          "vote_type": "1/2",
+          "date": "2019-12-05",
+          "time": "13:36",
+          "result": "Nomination Confirmed",
+          "democratic": {
+            "yes": "41",
+            "no": "0",
+            "present": "0",
+            "not_voting": "4",
+            "majority_position": "Yes"
+          },
+          "republican": {
+            "yes": "47",
+            "no": "0",
+            "present": "0",
+            "not_voting": "6",
+            "majority_position": "Yes"
+          },
+          "independent": {
+            "yes": "1",
+            "no": "0",
+            "present": "0",
+            "not_voting": "1"
+          },
+          "total": {
+            "yes": "89",
+            "no": "0",
+            "present": "0",
+            "not_voting": "11",
+            "margin": "89"
+          }
+        },
+        {
+          "congress": 116,
+          "chamber": "Senate",
+          "session": 1,
+          "roll_call": 384,
+          "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00384.xml",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress\u003d116\u0026session\u003d1\u0026vote\u003d00384",
+          "vote_uri": "https://api.propublica.org/congress/v1/116/senate/sessions/1/votes/384.json",
+          "question": "On the Nomination",
+          "description": "Sherri A. Lydon, of South Carolina, to be United States District Judge for the District of South Carolina",
+          "vote_type": "1/2",
+          "date": "2019-12-05",
+          "time": "12:37",
+          "result": "Nomination Confirmed",
+          "democratic": {
+            "yes": "28",
+            "no": "13",
+            "present": "0",
+            "not_voting": "4",
+            "majority_position": "Yes"
+          },
+          "republican": {
+            "yes": "47",
+            "no": "0",
+            "present": "0",
+            "not_voting": "6",
+            "majority_position": "Yes"
+          },
+          "independent": {
+            "yes": "1",
+            "no": "0",
+            "present": "0",
+            "not_voting": "1"
+          },
+          "total": {
+            "yes": "76",
+            "no": "13",
+            "present": "0",
+            "not_voting": "11",
+            "margin": "63"
+          }
+        },
+        {
+          "congress": 116,
+          "chamber": "Senate",
+          "session": 1,
+          "roll_call": 383,
+          "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00383.xml",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress\u003d116\u0026session\u003d1\u0026vote\u003d00383",
+          "vote_uri": "https://api.propublica.org/congress/v1/116/senate/sessions/1/votes/383.json",
+          "question": "On the Nomination",
+          "description": "Richard Ernest Myers II, of North Carolina, to be United States District Judge for the Eastern District of North Carolina",
+          "vote_type": "1/2",
+          "date": "2019-12-05",
+          "time": "12:00",
+          "result": "Nomination Confirmed",
+          "democratic": {
+            "yes": "20",
+            "no": "21",
+            "present": "0",
+            "not_voting": "4",
+            "majority_position": "None"
+          },
+          "republican": {
+            "yes": "47",
+            "no": "0",
+            "present": "0",
+            "not_voting": "6",
+            "majority_position": "Yes"
+          },
+          "independent": {
+            "yes": "1",
+            "no": "0",
+            "present": "0",
+            "not_voting": "1"
+          },
+          "total": {
+            "yes": "68",
+            "no": "21",
+            "present": "0",
+            "not_voting": "11",
+            "margin": "47"
+          }
+        }
+      ]
+    }
+  ]
+}

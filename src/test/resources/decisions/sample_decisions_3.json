@@ -1,0 +1,263 @@
+{
+  "bill_id": "hr767-115",
+  "bill_slug": "hr767",
+  "congress": "115",
+  "bill": "H.R.767",
+  "bill_type": "hr",
+  "number": "H.R.767",
+  "bill_uri": "https://api.propublica.org/congress/v1/115/bills/hr767.json",
+  "title": "To establish the Stop, Observe, Ask, and Respond to Health and Wellness Training pilot program to address human trafficking in the health care system.",
+  "short_title": "SOAR to Health and Wellness Act of 2018",
+  "sponsor_title": "Rep.",
+  "sponsor": "Steve Cohen",
+  "sponsor_id": "C001068",
+  "sponsor_uri": "https://api.propublica.org/congress/v1/members/C001068.json",
+  "sponsor_party": "D",
+  "sponsor_state": "TN",
+  "gpo_pdf_uri": "https://www.govinfo.gov/content/pkg/BILLS-115hr767enr/pdf/BILLS-115hr767enr.pdf",
+  "congressdotgov_url": "https://www.congress.gov/bill/115th-congress/house-bill/767",
+  "govtrack_url": "https://www.govtrack.us/congress/bills/115/hr767",
+  "introduced_date": "2017-01-31",
+  "active": true,
+  "last_vote": "2018-12-20",
+  "house_passage": "2018-12-20",
+  "senate_passage": "2018-12-20",
+  "enacted": null,
+  "vetoed": null,
+  "cosponsors": 11,
+  "cosponsors_by_party": {
+    "R": 4,
+    "D": 7
+  },
+  "withdrawn_cosponsors": 0,
+  "primary_subject": "Health",
+  "committees": "Senate Health, Education, Labor, and Pensions Committee",
+  "committee_codes": [
+    "SSHR",
+    "HSIF"
+  ],
+  "subcommittee_codes": [
+    "HSIF14"
+  ],
+  "latest_major_action_date": "2018-12-20",
+  "latest_major_action": "Motion to reconsider laid on the table Agreed to without objection.",
+  "house_passage_vote": "2018-12-20",
+  "senate_passage_vote": "2018-12-20",
+  "summary": "Stop, Observe, Ask, and Respond to Health and Wellness Act of 2017 or the SOAR to Health and Wellness Act of 2017 (Sec. 3) This bill directs the Department of Health and Human Services (HHS) to establish a program, to be known as the Stop, Observe, Ask, and Respond to Health and Wellness Training Program or the SOAR to Health and Wellness Training Program, to train health care providers and other related providers to:  identify potential human trafficking victims,  work with law enforcement to report and facilitate communication with such victims,  refer victims to social or victims service agencies or organizations,  provide such victims with coordinated care tailored to their circumstances, and  consider integrating this training with existing training programs.  The program must include the functions of the training program with the same name that was operating before this bill's enactment and the following initiatives:  engaging stakeholders to develop a flexible training module,  providing technical assistance to health education programs and health care professional organizations,  facilitating the dissemination of best practices, and  developing a methodology for collecting and reporting data on the number of human trafficking victims served in health care settings or other related provider settings.  (Sec. 4) HHS must report the number of grantees operating under the program, the number of providers trained through the program, and numbers for the program operating before this program. (Sec. 5) The bill authorizes appropriations for the program through FY2022.",
+  "summary_short": "Stop, Observe, Ask, and Respond to Health and Wellness Act of 2017 or the SOAR to Health and Wellness Act of 2017 (Sec. 3) This bill directs the Department of Health and Human Services (HHS) to establish a program, to be known as the Stop, Observe, Ask, and Respond to Health and Wellness Training Program or the SOAR to Health and Wellness Training Program, to train health care providers and other related providers to:  identify potential human trafficking victims,  work with law enforcement t...",
+  "versions": [
+    {
+      "status": "Enrolled as Agreed to or Passed by Both House and Senate",
+      "title": "SOAR to Health and Wellness Act of 2018",
+      "congressdotgov_url": "https://www.govinfo.gov/content/pkg/BILLS-115hr767enr/html/BILLS-115hr767enr.htm"
+    },
+    {
+      "status": "Engrossed Amendment as Agreed to by Senate",
+      "title": "SOAR to Health and Wellness Act of 2018",
+      "congressdotgov_url": "https://www.govinfo.gov/content/pkg/BILLS-115hr767eas/html/BILLS-115hr767eas.htm"
+    },
+    {
+      "status": "Referred to Senate Committee after being Received from House",
+      "title": "SOAR to Health and Wellness Act of 2018",
+      "congressdotgov_url": "https://www.govinfo.gov/content/pkg/BILLS-115hr767rfs/html/BILLS-115hr767rfs.htm"
+    }
+  ],
+  "actions": [
+    {
+      "id": 26,
+      "chamber": "House",
+      "action_type": "ResolvingDifferences",
+      "datetime": "2018-12-20",
+      "description": "Motion to reconsider laid on the table Agreed to without objection."
+    },
+    {
+      "id": 25,
+      "chamber": "House",
+      "action_type": "ResolvingDifferences",
+      "datetime": "2018-12-20",
+      "description": "On motion that the House suspend the rules and agree to the Senate amendment Agreed to by the Yeas and Nays: (2/3 required): 386 - 6 (Roll no. 462)."
+    },
+    {
+      "id": 24,
+      "chamber": "House",
+      "action_type": "ResolvingDifferences",
+      "datetime": "2018-12-20",
+      "description": "At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the chair announced that further proceedings on the motion would be postponed."
+    },
+    {
+      "id": 23,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2018-12-20",
+      "description": "DEBATE - The House proceeded with forty minutes of debate on the motion to suspend the rules and agree to the Senate amendment to H.R. 767."
+    },
+    {
+      "id": 22,
+      "chamber": "House",
+      "action_type": "ResolvingDifferences",
+      "datetime": "2018-12-20",
+      "description": "Mr. Guthrie moved that the House suspend the rules and agree to the Senate amendment."
+    },
+    {
+      "id": 21,
+      "chamber": "Senate",
+      "action_type": "Floor",
+      "datetime": "2018-12-20",
+      "description": "Message on Senate action sent to the House."
+    },
+    {
+      "id": 20,
+      "chamber": "Senate",
+      "action_type": "Floor",
+      "datetime": "2018-12-20",
+      "description": "Measure laid before Senate by unanimous consent. (consideration: CR S7949-7950)"
+    },
+    {
+      "id": 19,
+      "chamber": "Senate",
+      "action_type": "Floor",
+      "datetime": "2018-12-20",
+      "description": "Passed Senate with an amendment by Voice Vote."
+    },
+    {
+      "id": 18,
+      "chamber": "Senate",
+      "action_type": "Floor",
+      "datetime": "2018-12-20",
+      "description": "Measure laid before Senate by unanimous consent."
+    },
+    {
+      "id": 17,
+      "chamber": "Senate",
+      "action_type": "Discharge",
+      "datetime": "2018-12-20",
+      "description": "Senate Committee on Health, Education, Labor, and Pensions discharged by Unanimous Consent."
+    },
+    {
+      "id": 16,
+      "chamber": "Senate",
+      "action_type": "IntroReferral",
+      "datetime": "2018-02-27",
+      "description": "Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+    },
+    {
+      "id": 15,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2018-02-26",
+      "description": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H1234-1235)"
+    },
+    {
+      "id": 14,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2018-02-26",
+      "description": "Considered under suspension of the rules. (consideration: CR H1234-1236)"
+    },
+    {
+      "id": 13,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2018-02-26",
+      "description": "Motion to reconsider laid on the table Agreed to without objection."
+    },
+    {
+      "id": 12,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2018-02-26",
+      "description": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote."
+    },
+    {
+      "id": 11,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2018-02-26",
+      "description": "DEBATE - The House proceeded with forty minutes of debate on H.R. 767."
+    },
+    {
+      "id": 10,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2018-02-26",
+      "description": "Considered under suspension of the rules."
+    },
+    {
+      "id": 9,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2018-02-26",
+      "description": "Mr. Burgess moved to suspend the rules and pass the bill, as amended."
+    },
+    {
+      "id": 8,
+      "chamber": "House",
+      "action_type": "Calendars",
+      "datetime": "2017-09-25",
+      "description": "Placed on the Union Calendar, Calendar No. 237."
+    },
+    {
+      "id": 7,
+      "chamber": "House",
+      "action_type": "Committee",
+      "datetime": "2017-09-25",
+      "description": "Reported (Amended) by the Committee on Energy and Commerce. H. Rept. 115-327."
+    },
+    {
+      "id": 6,
+      "chamber": "House",
+      "action_type": "Committee",
+      "datetime": "2017-07-27",
+      "description": "Ordered to be Reported (Amended) by Voice Vote."
+    },
+    {
+      "id": 5,
+      "chamber": "House",
+      "action_type": "Committee",
+      "datetime": "2017-07-27",
+      "description": "Committee Consideration and Mark-up Session Held."
+    },
+    {
+      "id": 4,
+      "chamber": "House",
+      "action_type": "Committee",
+      "datetime": "2017-06-29",
+      "description": "Forwarded by Subcommittee to Full Committee (Amended) by Voice Vote ."
+    },
+    {
+      "id": 3,
+      "chamber": "House",
+      "action_type": "Committee",
+      "datetime": "2017-06-29",
+      "description": "Subcommittee Consideration and Mark-up Session Held."
+    },
+    {
+      "id": 2,
+      "chamber": "House",
+      "action_type": "Committee",
+      "datetime": "2017-02-03",
+      "description": "Referred to the Subcommittee on Health."
+    },
+    {
+      "id": 1,
+      "chamber": "House",
+      "action_type": "IntroReferral",
+      "datetime": "2017-01-31",
+      "description": "Referred to the House Committee on Energy and Commerce."
+    }
+  ],
+  "votes": [
+    {
+      "chamber": "House",
+      "date": "2018-12-20",
+      "time": "14:43:00",
+      "roll_call": "462",
+      "question": "On Motion to Suspend the Rules and Concur in the Senate Amendment",
+      "result": "Passed",
+      "total_yes": 386,
+      "total_no": 6,
+      "total_not_voting": 40,
+      "api_url": "https://api.propublica.org/congress/v1/115/house/sessions/2/votes/462.json"
+    }
+  ]
+}

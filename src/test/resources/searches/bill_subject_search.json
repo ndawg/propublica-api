@@ -1,0 +1,29 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2019 Pro Publica Inc. All Rights Reserved.",
+  "results": [
+    {
+      "query": "climate",
+      "num_results": 4,
+      "offset": 0,
+      "subjects": [
+        {
+          "name": "Climate",
+          "url_name": "climate"
+        },
+        {
+          "name": "Climate change",
+          "url_name": "climate-change"
+        },
+        {
+          "name": "Climate change and greenhouse gases",
+          "url_name": "climate-change-and-greenhouse-gases"
+        },
+        {
+          "name": "Global climate change",
+          "url_name": "global-climate-change"
+        }
+      ]
+    }
+  ]
+}

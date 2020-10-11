@@ -1,0 +1,1224 @@
+openapi: 3.0.0
+info:
+  title: propublica
+  version: '1.0'
+servers:
+  - url: 'http://localhost:3000'
+paths:
+  '/congress/{congress}/bills/{bill}':
+    parameters:
+      - name: congress
+        in: path
+        schema:
+          type: integer
+          minimum: 105
+          maximum: 116
+        required: true
+        description: The Congress the bill was present in
+      - name: bill
+        in: path
+        schema:
+          type: string
+        description: 'The slug of the bill, eg "hr1"'
+        required: true
+    get:
+      summary: Retrieve details about a bill
+      tags: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/APIResponse'
+                  - type: object
+                    properties:
+                      result:
+                        $ref: '#/components/schemas/Bill'
+                    required:
+                      - result
+              examples:
+                hr1:
+                  value:
+                    status: OK
+                    copyright: Copyright (c) 2019 Pro Publica Inc. All Rights Reserved.
+                    error: null
+                    result:
+                      meta:
+                        slug: hr1
+                        congress: 116
+                        name: H.R.1
+                        type: hr
+                        id: hr1-116
+                      title:
+                        full: "To expand Americans' access to the ballot box, reduce the influence of big money in politics, and strengthen ethics rules for public servants, and for other purposes."
+                        short: For the People Act of 2019
+                      sponsor:
+                        id: S001168
+                        name: John Sarbanes
+                        party: D
+                        state: MD
+                        title: Rep.
+                      links:
+                        gpo: null
+                        congressdotgov: 'https://www.congress.gov/bill/116th-congress/house-bill/1'
+                        govtrack: 'https://www.govtrack.us/congress/bills/116/hr1'
+                      dates:
+                        introduced: '2019-01-03'
+                        last_vote: '2019-03-08'
+                        house_passage: '2019-03-08'
+                        senate_passage: null
+                        house_passage_vote: '2019-03-08'
+                        senate_passage_vote: null
+                        enacted: null
+                        vetoed: null
+                      active: true
+                      committees:
+                        primary:
+                          id: HHSC
+                          name: House Homeland Security Committee
+                        codes:
+                          - HSJU
+                          - HSHM
+                          - HSSO
+                          - HSBA
+                          - HSWM
+                          - HSED
+                          - HSSY
+                          - HSGO
+                          - HLIG
+                          - HSHA
+                      summary:
+                        full: 'For the People Act of 2019 This bill addresses voter access, election integrity, election security, political spending, and ethics for the three branches of government.  Specifically, the bill expands voter registration and voting access, makes Election Day a federal holiday, and limits removing voters from voter rolls. The bill provides for states to establish independent, nonpartisan redistricting commissions. The bill also sets forth provisions related to election security, including sharing intelligence information with state election officials, protecting the security of the voter rolls, supporting states in securing their election systems, developing a national strategy to protect the security and integrity of U.S. democratic institutions, establishing in the legislative branch the National Commission to Protect United States Democratic Institutions, and other provisions to improve the cybersecurity of election systems. This bill addresses campaign spending, including by expanding the ban on foreign nationals contributing to or spending on elections; expanding disclosure rules pertaining to organizations spending money during elections, campaign advertisements, and online platforms; and revising disclaimer requirements for political advertising.  This bill establishes an alternative campaign funding system for certain federal offices. The system involves federal matching of small contributions for qualified candidates.  This bill sets forth provisions related to ethics in all three branches of government. Specifically, the bill requires a code of ethics for federal judges and justices, prohibits Members of the House from serving on the board of a for-profit entity, expands enforcement of regulations governing foreign agents, and establishes additional conflict-of-interest and ethics provisions for federal employees and the White House.  The bill also requires candidates for President and Vice President to submit 10 years of tax returns.'
+                        summary: 'For the People Act of 2019 This bill addresses voter access, election integrity, election security, political spending, and ethics for the three branches of government.  Specifically, the bill expands voter registration and voting access, makes Election Day a federal holiday, and limits removing voters from voter rolls. The bill provides for states to establish independent, nonpartisan redistricting commissions. The bill also sets forth provisions related to election security, including shari...'
+                      cosponsors:
+                        total: 236
+                        withdrawn: 0
+                        by_party:
+                          D: 236
+                      primary_subject: Government Operations and Politics
+                      last_major_action:
+                        date: '2019-03-14'
+                        action: Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 39.
+                      versions:
+                        - status: Placed on Calendar Senate
+                          title: PCS
+                          url: 'https://www.govinfo.gov/content/pkg/BILLS-116hr1pcs/xml/BILLS-116hr1pcs.xml'
+                          congressdotgov_url: 'https://www.congress.gov/bill/116th-congress/house-bill/1/text/pcs'
+                        - status: Engrossed in House
+                          title: EH
+                          url: 'https://www.govinfo.gov/content/pkg/BILLS-116hr1eh/xml/BILLS-116hr1eh.xml'
+                          congressdotgov_url: 'https://www.congress.gov/bill/116th-congress/house-bill/1/text/eh'
+                        - status: Reported in House
+                          title: RH
+                          url: 'https://www.govinfo.gov/content/pkg/BILLS-116hr1rh/xml/BILLS-116hr1rh.xml'
+                          congressdotgov_url: 'https://www.congress.gov/bill/116th-congress/house-bill/1/text/rh'
+                        - status: Introduced in House
+                          title: IH
+                          url: 'https://www.govinfo.gov/content/pkg/BILLS-116hr1ih/xml/BILLS-116hr1ih.xml'
+                          congressdotgov_url: 'https://www.congress.gov/bill/116th-congress/house-bill/1/text/ih'
+                      actions:
+                        - id: 111
+                          chamber: Senate
+                          action_type: Calendars
+                          datetime: '2019-03-14'
+                          description: Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 39.
+                        - id: 110
+                          chamber: Senate
+                          action_type: Calendars
+                          datetime: '2019-03-13'
+                          description: Read the first time. Placed on Senate Legislative Calendar under Read the First Time.
+                        - id: 109
+                          chamber: Senate
+                          action_type: IntroReferral
+                          datetime: '2019-03-12'
+                          description: Received in the Senate.
+                        - id: 108
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-08'
+                          description: Motion to reconsider laid on the table Agreed to without objection.
+                        - id: 107
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-08'
+                          description: 'On passage Passed by the Yeas and Nays: 234 - 193 (Roll no. 118).'
+                        - id: 106
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-08'
+                          description: 'On motion to recommit with instructions Failed by the Yeas and Nays: 197 - 228 (Roll no. 117).'
+                        - id: 105
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-08'
+                          description: The previous question on the motion to recommit with instructions was ordered without objection.
+                        - id: 104
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-08'
+                          description: 'Floor summary: DEBATE - The House proceeded 10 minutes of debate on the Crenshaw motion to recommit with instructions. The instructions contained in the motion seek to require the bill to be reported back to the House with an amendment to add language on Upholding Suffrage in America Title XI- Upholding Suffrage in America, Divison D.'
+                        - id: 103
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-08'
+                          description: Mr. Crenshaw moved to recommit with instructions to the Committee on the Judiciary.
+                        - id: 102
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-08'
+                          description: The House adopted the amendments en gross as agreed to by the Committee of the Whole House on the state of the Union.
+                        - id: 101
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-08'
+                          description: The previous question was ordered pursuant to the rule.
+                        - id: 100
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-08'
+                          description: The House rose from the Committee of the Whole House on the state of the Union to report H.R. 1.
+                        - id: 99
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-08'
+                          description: GENERAL DEBATE - The Committee of the Whole proceeded with 10 minutes of further general debate on H.R. 1.
+                        - id: 98
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-08'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Golden amendment No. 72.'
+                        - id: 97
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-08'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Kirkpatrick amendment No. 71.'
+                        - id: 96
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-08'
+                          description: 'POSTPONED PROCEEDINGS - At the conclusion of debate on the Neguse amendment, the Chair put the question on the amendment and by voice vote, announced that the ayes had prevailed. Mr. Neguse demanded a recorded vote and the Chair postponed further proceedings on agreeing to the amendment until a time to be announced.'
+                        - id: 95
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-08'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Neguse amendment No. 70.'
+                        - id: 94
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-08'
+                          description: The House resolved into Committee of the Whole House on the state of the Union for further consideration.
+                        - id: 93
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-08'
+                          description: Considered as unfinished business.
+                        - id: 92
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-08'
+                          description: 'Mr. Crenshaw moved to recommit with instructions to the Committee on the Judiciary. (text: CR H2600)'
+                        - id: 91
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-08'
+                          description: 'Considered as unfinished business. (consideration: CR H2591-2602)'
+                        - id: 90
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: Committee of the Whole House on the state of the Union rises leaving H.R. 1 as unfinished business.
+                        - id: 89
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: On motion that the committee rise Agreed to by voice vote.
+                        - id: 88
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: Ms. Lofgren moved that the committee rise.
+                        - id: 87
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Slotkin amendment No. 69.'
+                        - id: 86
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Spanberger amendment No. 68.'
+                        - id: 85
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Kim amendment No. 64.'
+                        - id: 84
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Trahan amendment No. 63.'
+                        - id: 83
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Trahan amendment No. 62.'
+                        - id: 82
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Levin (MI) amendment No. 61.'
+                        - id: 81
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Phillips amendment No. 58.'
+                        - id: 80
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Houlahan amendment No. 57.'
+                        - id: 79
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Case amendment No. 56.'
+                        - id: 78
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'POSTPONED PROCEEDINGS - At the conclusion of debate on the Brindisi amendment, the Chair put the question on the amendment and by voice vote, announced that the noes had prevailed. Mr. Brindisi demanded a recorded vote and the Chair postponed further proceedings on agreeing to the amendment until a time to be announced.'
+                        - id: 77
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Brindisi amendment No. 54.'
+                        - id: 76
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: The House resolved into Committee of the Whole House on the state of the Union for further consideration.
+                        - id: 75
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: Considered as unfinished business.
+                        - id: 74
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Brown (MD) amendment No. 49.'
+                        - id: 73
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Brown (MD) amendment No. 48.'
+                        - id: 72
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Brown (MD) amendment No. 47.'
+                        - id: 71
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Brown (MD) amendment No. 45.'
+                        - id: 70
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Beyer amendment No. 43.'
+                        - id: 69
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Frankel amendment No. 39.'
+                        - id: 68
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Pocan amendment No. 38'
+                        - id: 67
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Pocan amendment No. 37.'
+                        - id: 66
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Lujan amendment No. 34'
+                        - id: 65
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'POSTPONED PROCEEDINGS - At the conclusion of debate on the Davidson (OH) amendment, the Chair put the question on the amendment and by voice vote, announced that the noes had prevailed. Mr. Davidson (OH) demanded a recorded vote and the Chair postponed further proceedings on agreeing to the amendment until a time to be announced.'
+                        - id: 64
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Davidson (OH) amendment No. 33.'
+                        - id: 63
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Davidson (OH) amendment No. 32.'
+                        - id: 62
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Davidson (OH) amendment No. 31.'
+                        - id: 61
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Moore amendment No. 30.'
+                        - id: 60
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Moore amendment No. 29.'
+                        - id: 59
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Rodney Davis amendment No. 28.'
+                        - id: 58
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Grijalva amendment No. 27.'
+                        - id: 57
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Green (TX) amendment No. 26.'
+                        - id: 56
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'POSTPONED PROCEEDINGS - At the conclusion of debate on the Green (TN) amendment, the Chair put the question on the amendment and by voice vote, announced that the noes had prevailed. Mr. Green (TN) demanded a recorded vote and the Chair postponed further proceedings on agreeing to the amendment until a time to be announced.'
+                        - id: 55
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Green (TN) amendment No. 25.'
+                        - id: 54
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'POSTPONED PROCEEDINGS - At the conclusion of debate on the Pressley amendment, the Chair put the question on the amendment and by voice vote, announced that the ayes had prevailed. Ms. Pressley demanded a recorded vote and the Chair postponed further proceedings on agreeing to the amendment until a time to be announced.'
+                        - id: 53
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Pressley amendment No. 24.'
+                        - id: 52
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Hice (GA) amendment No. 23.'
+                        - id: 51
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 20 minutes of debate on the Lofgren en bloc amendments No. 1.'
+                        - id: 50
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'Considered as unfinished business. (consideration: CR H2555-2571)'
+                        - id: 49
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-07'
+                          description: 'Considered as unfinished business. (consideration: CR H2515-2547)'
+                        - id: 48
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-06'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Scanlon amendment No. 6.'
+                        - id: 47
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-06'
+                          description: 'POSTPONED PROCEEDINGS - At the conclusion of debate on the Cole amendment, the Chair put the question on the amendment and by voice vote, announced that the noes had prevailed. Mr. Cole demanded a recorded vote and the Chair postponed further proceedings on agreeing to the amendment until a time to be announced.'
+                        - id: 46
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-06'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Cole amendment No. 5.'
+                        - id: 45
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-06'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Hastings amendment No. 4.'
+                        - id: 44
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-06'
+                          description: 'POSTPONED PROCEEDINGS - At the conclusion of debate on the Raskin amendment, the Chair put the question on the amendment and by voice vote, announced that the ayes had prevailed. Mr. Rodney Davis (IL) demanded a recorded vote and the Chair postponed further proceedings on agreeing to the amendment until a time to be announced.'
+                        - id: 43
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-06'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Raskin amendment No. 3.'
+                        - id: 42
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-06'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Butterfield amendment No. 2.'
+                        - id: 41
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-06'
+                          description: 'Considered under the provisions of rule H. Res. 172. (consideration: CR H2390-2498)'
+                        - id: 40
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-06'
+                          description: 'DEBATE - Pursuant to the provisions of H.Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Suozzi amendment No. 1.'
+                        - id: 39
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-06'
+                          description: GENERAL DEBATE - The Committee of the Whole proceeded with two hours of general debate on H.R. 1.
+                        - id: 38
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-06'
+                          description: The Speaker designated the Honorable Henry Cuellar to act as Chairman of the Committee.
+                        - id: 37
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-06'
+                          description: House resolved itself into the Committee of the Whole House on the state of the Union pursuant to H. Res. 172 and Rule XVIII.
+                        - id: 36
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-06'
+                          description: 'Rule provides for consideration of H.R. 1 with 2 hours of general debate. The resolution provides that an amendment in the nature of a substitute consisting of the text of Rules Committee Print 116-7, modified by the amendment printed in Part A of the resolution is considered as adopted. The resolution provides that it shall be in order at any time through the legislative day of March 8, 2019, for the Speaker to entertain motions that the House suspend the rules.'
+                        - id: 35
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-06'
+                          description: Considered under the provisions of rule H. Res. 172.
+                        - id: 34
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-06'
+                          description: Rule H. Res. 172 passed House.
+                        - id: 33
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-06'
+                          description: Committee of the Whole House on the state of the Union rises leaving H.R. 1 as unfinished business.
+                        - id: 32
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-06'
+                          description: On motion that the committee rise Agreed to by voice vote.
+                        - id: 31
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-06'
+                          description: Ms. Lofgren moved that the committee rise.
+                        - id: 30
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-06'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Rouda amendment No. 22.'
+                        - id: 29
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-06'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Rouda amendment No. 21.'
+                        - id: 28
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-06'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Rouda amendment No. 20.'
+                        - id: 27
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-06'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Lawrence amendment No. 18.'
+                        - id: 26
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-06'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Foxx amendment No. 17.'
+                        - id: 25
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-06'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Connolly amendment No. 16.'
+                        - id: 24
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-06'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Jayapal amendment No. 15.'
+                        - id: 23
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-06'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Jayapal amendment No. 14.'
+                        - id: 22
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-06'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Jayapal amendment No. 13.'
+                        - id: 21
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-06'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Ted Lieu (CA) amendment No. 12.'
+                        - id: 20
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-06'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Biggs amendment No. 11.'
+                        - id: 19
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-06'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Shalala amendment No. 9.'
+                        - id: 18
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-06'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Morelle amendment No. 8.'
+                        - id: 17
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-06'
+                          description: 'DEBATE - Pursuant to the provisions of H. Res. 172, the Committee of the Whole proceeded with 10 minutes of debate on the Scanlon amendment No. 7.'
+                        - id: 16
+                          chamber: House
+                          action_type: Floor
+                          datetime: '2019-03-05'
+                          description: 'Rules Committee Resolution H. Res. 172 Reported to House. Rule provides for consideration of H.R. 1 with 2 hours of general debate. The resolution provides that an amendment in the nature of a substitute consisting of the text of Rules Committee Print 116-7, modified by the amendment printed in Part A of the resolution is considered as adopted. The resolution provides that it shall be in order at any time through the legislative day of March 8, 2019, for the Speaker to entertain motions that the House suspend the rules.'
+                        - id: 15
+                          chamber: House
+                          action_type: Calendars
+                          datetime: '2019-03-04'
+                          description: 'Placed on the Union Calendar, Calendar No. 5.'
+                        - id: 14
+                          chamber: House
+                          action_type: Discharge
+                          datetime: '2019-03-04'
+                          description: Committee on Homeland Security discharged.
+                        - id: 13
+                          chamber: House
+                          action_type: Discharge
+                          datetime: '2019-03-04'
+                          description: Committee on Ethics discharged.
+                        - id: 12
+                          chamber: House
+                          action_type: Discharge
+                          datetime: '2019-03-04'
+                          description: Committee on Financial Services discharged.
+                        - id: 11
+                          chamber: House
+                          action_type: Discharge
+                          datetime: '2019-03-04'
+                          description: Committee on Ways and Means discharged.
+                        - id: 10
+                          chamber: House
+                          action_type: Discharge
+                          datetime: '2019-03-04'
+                          description: Committee on Education and Labor discharged.
+                        - id: 9
+                          chamber: House
+                          action_type: Discharge
+                          datetime: '2019-03-04'
+                          description: 'Committee on Science, Space, and Technology discharged.'
+                        - id: 8
+                          chamber: House
+                          action_type: Discharge
+                          datetime: '2019-03-04'
+                          description: Committee on Oversight and Reform discharged.
+                        - id: 7
+                          chamber: House
+                          action_type: Discharge
+                          datetime: '2019-03-04'
+                          description: Committee on the Judiciary discharged.
+                        - id: 6
+                          chamber: House
+                          action_type: Discharge
+                          datetime: '2019-03-04'
+                          description: Committee on Intelligence (Permanent) discharged.
+                        - id: 5
+                          chamber: House
+                          action_type: Committee
+                          datetime: '2019-03-04'
+                          description: 'Reported (Amended) by the Committee on House Administration. H. Rept. 116-15, Part I.'
+                        - id: 4
+                          chamber: House
+                          action_type: Committee
+                          datetime: '2019-02-26'
+                          description: 'Ordered to be Reported (Amended) by the Yeas and Nays: 6 - 3.'
+                        - id: 3
+                          chamber: House
+                          action_type: Committee
+                          datetime: '2019-02-26'
+                          description: Committee Consideration and Mark-up Session Held.
+                        - id: 2
+                          chamber: House
+                          action_type: Committee
+                          datetime: '2019-01-29'
+                          description: Committee Hearings Held.
+                        - id: 1
+                          chamber: House
+                          action_type: IntroReferral
+                          datetime: '2019-01-03'
+                          description: 'Referred to the Committee on House Administration, and in addition to the Committees on Intelligence (Permanent Select), the Judiciary, Oversight and Reform, Science, Space, and Technology, Education and Labor, Ways and Means, Financial Services, Ethics, and Homeland Security, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.'
+                      presidental_statements:
+                        - date: '2019-03-05'
+                          position: Opposes
+                          url: 'https://www.whitehouse.gov/wp-content/uploads/2019/03/saphr1hr_20190305.pdf'
+                          veto_threat: true
+                          would_sign: false
+                      votes:
+                        - chamber: House
+                          date: '2019-03-08'
+                          time: '11:21:00'
+                          roll_call: 118
+                          question: On Passage
+                          result: Passed
+                          totals:
+                            'yes': 234
+                            'no': 193
+                            not_voting: 5
+                        - chamber: House
+                          date: '2019-03-08'
+                          time: '11:11:00'
+                          roll_call: 117
+                          question: On Motion to Recommit with Instructions
+                          result: Failed
+                          totals:
+                            'yes': 197
+                            'no': 228
+                            not_voting: 7
+                        - chamber: House
+                          date: '2019-03-08'
+                          time: '10:33:00'
+                          roll_call: 116
+                          question: On Agreeing to the Amendment
+                          result: Agreed to
+                          totals:
+                            'yes': 239
+                            'no': 186
+                            not_voting: 13
+                        - chamber: House
+                          date: '2019-03-08'
+                          time: '10:27:00'
+                          roll_call: 115
+                          question: On Agreeing to the Amendment
+                          result: Agreed to
+                          totals:
+                            'yes': 237
+                            'no': 188
+                            not_voting: 13
+                        - chamber: House
+                          date: '2019-03-07'
+                          time: '18:09:00'
+                          roll_call: 114
+                          question: On Agreeing to the Amendment
+                          result: Failed
+                          totals:
+                            'yes': 195
+                            'no': 237
+                            not_voting: 6
+                        - chamber: House
+                          date: '2019-03-07'
+                          time: '18:04:00'
+                          roll_call: 113
+                          question: On Agreeing to the Amendment
+                          result: Failed
+                          totals:
+                            'yes': 194
+                            'no': 238
+                            not_voting: 6
+                        - chamber: House
+                          date: '2019-03-07'
+                          time: '17:59:00'
+                          roll_call: 112
+                          question: On Agreeing to the Amendment
+                          result: Failed
+                          totals:
+                            'yes': 200
+                            'no': 233
+                            not_voting: 5
+                        - chamber: House
+                          date: '2019-03-07'
+                          time: '18:04:00'
+                          roll_call: 111
+                          question: On Agreeing to the Amendment
+                          result: Failed
+                          totals:
+                            'yes': 126
+                            'no': 305
+                            not_voting: 5
+                        - chamber: House
+                          date: '2019-03-07'
+                          time: '17:47:00'
+                          roll_call: 110
+                          question: On Agreeing to the Amendment
+                          result: Failed
+                          totals:
+                            'yes': 199
+                            'no': 235
+                            not_voting: 4
+                        - chamber: House
+                          date: '2019-03-07'
+                          time: '17:42:00'
+                          roll_call: 109
+                          question: On Agreeing to the Amendment
+                          result: Agreed to
+                          totals:
+                            'yes': 219
+                            'no': 215
+                            not_voting: 4
+      operationId: get-congress-bill
+      security:
+        - API Key: []
+      description: 'Use this request type to get details about a particular bill, including actions taken and vote overviews. The attributes `house_passage_vote` and `senate_passage_vote` are populated (with the date of passage) only upon successful passage of the bill. Bills before the 113th Congress (prior to 2013) have fewer attribute values than those from the 113th Congress onward, because the more recent bill data comes from the bulk data provided by the Government Publishing Office. Details for the older bills came from scraping Thomas.gov, the former congressional site of the Library of Congress.'
+  '/congress/{congress}/bills/recent/{chamber}/{type}':
+    parameters:
+      - in: path
+        name: congress
+        required: true
+        schema:
+          type: integer
+          minimum: 105
+          maximum: 116
+      - schema:
+          type: string
+          enum:
+            - senate
+            - house
+            - both
+          default: both
+        name: chamber
+        in: path
+        required: true
+      - schema:
+          type: string
+          enum:
+            - introduced
+            - updated
+            - active
+            - passed
+            - enacted
+            - vetoed
+          default: introduced
+        name: type
+        in: path
+        required: true
+    get:
+      summary: List bills that have recently been updated
+      tags: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/APIResponse'
+                  - type: object
+                    properties:
+                      result:
+                        type: array
+                        items:
+                          $ref: '#/components/schemas/Bill'
+      operationId: get-congress-bills-recent
+      parameters:
+        - schema:
+            type: integer
+            multipleOf: 20
+            minimum: 0
+          in: query
+          name: offset
+          description: 'The number of bills to skip, for pagination'
+      description: 'Use this request type to get summaries of the 20 most recent bills by type. For the current Congress, “recent bills” can be one of four types. For previous Congresses, “recent bills” means the last 20 bills of that Congress. In the responses, an active value of true means that the bill has seen action beyond introduction and committee referral. Requests include a chamber value; to get recent bills from the House and Senate, use `both` as the value. You can paginate through bills using the offset querystring parameter that accepts multiples of 20. Bills before the 113th Congress (prior to 2013) have fewer attribute values than those from the 113th Congress onward, because the more recent bill data comes from the bulk data provided by the Government Publishing Office. Details for the older bills came from scraping Thomas.gov, the former congressional site of the Library of Congress.'
+components:
+  schemas:
+    APIResponse:
+      title: APIResponse
+      type: object
+      properties:
+        status:
+          type: string
+        copyright:
+          type: string
+        error:
+          type: string
+      required:
+        - status
+        - copyright
+        - error
+    BillMeta:
+      title: BillMeta
+      type: object
+      x-examples:
+        example-1:
+          slug: hr1
+          congress: 116
+          name: H.R.1
+          type: hr
+          id: hr1-116
+      description: Identifying properties for a single bill.
+      properties:
+        slug:
+          type: string
+          description: 'A combination of chamber and bill number, eg `"s756"`'
+        congress:
+          type: integer
+          description: 'The Congress this bill was introduced into, eg `115`'
+        name:
+          type: string
+          description: 'The formal identifier for the bill, eg `"H.R.1"`'
+        type:
+          type: string
+          description: 'The type of bill, eg `"hr"`, `"s"`, etc. The bill type dictates many properties of the bill, like which chamber it started in, who it requires approval from, and more.'
+        id:
+          type: string
+          description: "The unique identifier for the bill, which combines it's properties, eg `\"hr1-116\"`"
+      required:
+        - slug
+        - congress
+        - name
+        - type
+        - id
+    CurrentMemberMeta:
+      title: CurrentMemberMeta
+      type: object
+      description: A very brief representation of a member who is currently in office.
+      properties:
+        id:
+          type: string
+          description: 'The ID of the member, which is assigned by the Biographical Directory of the United States Congress'
+        name:
+          type: string
+          description: "The member's full name"
+        party:
+          type: string
+          description: "A single letter code identifying the member's party, eg `\"D\"`, `\"R\"`, or `\"I\"`"
+        state:
+          type: string
+          description: 'The US state or territory that this member represents, eg `"AL"` (Alabama), `"DC"` (the District of Columbia), `"VA"` (Virginia), etc.'
+        title:
+          type: string
+          description: "The member's title, which is their current position, eg `\"Rep.\"` for a House representative, and `\"Sen.\"` for a Senator"
+      required:
+        - id
+        - name
+        - party
+        - state
+        - title
+    Bill:
+      title: Bill
+      type: object
+      description: Full details about a bill that has been introduced into Congress.
+      properties:
+        meta:
+          $ref: '#/components/schemas/BillMeta'
+        title:
+          $ref: '#/components/schemas/FullOrShort'
+        sponsor:
+          $ref: '#/components/schemas/CurrentMemberMeta'
+        links:
+          type: object
+          required:
+            - gpo
+            - congressdotgov
+            - govtrack
+          description: Relevants links for the bill
+          properties:
+            gpo:
+              type: string
+              description: "A link to the Government Publishing Office's version of the bill - ie, the full text"
+            congressdotgov:
+              type: string
+              description: "A link to congress.gov's details about the bill"
+            govtrack:
+              type: string
+              nullable: true
+              description: "A link to govtrack's page for the bill, if one exists"
+        dates:
+          type: object
+          required:
+            - introduced
+            - last_vote
+            - house_passage
+            - senate_passage
+            - house_passage_vote
+            - senate_passage_vote
+            - enacted
+            - vetoed
+          description: Relevant dates
+          properties:
+            introduced:
+              type: string
+              nullable: true
+              description: 'The date '
+            last_vote:
+              type: string
+              nullable: true
+              description: The date that the bill was last voted on
+            house_passage:
+              type: string
+              nullable: true
+            senate_passage:
+              type: string
+              nullable: true
+            house_passage_vote:
+              type: string
+              description: The date the bill was successfully passed in the House
+              nullable: true
+            senate_passage_vote:
+              type: string
+              description: The date the bill was successfully passed in the Senate
+              nullable: true
+            enacted:
+              type: string
+              nullable: true
+              description: The date the bill was enacted
+            vetoed:
+              type: string
+              nullable: true
+              description: The date the bill was vetoed
+        active:
+          type: boolean
+          description: Whether or not the bill is still making its way through Congress
+        committees:
+          type: object
+          required:
+            - primary
+            - codes
+          description: 'The committees that are related to this bill, and through which the bill has been referred'
+          properties:
+            primary:
+              $ref: '#/components/schemas/CommitteeMeta'
+            codes:
+              type: array
+              description: Codes for other committees that this bill has been discussed in
+              items:
+                type: string
+        summary:
+          $ref: '#/components/schemas/FullOrShort'
+        cosponsors:
+          type: object
+          required:
+            - total
+            - withdrawn
+            - by_party
+          properties:
+            total:
+              type: integer
+              description: The total number of cosponsors
+            withdrawn:
+              type: integer
+              description: 'The number of cosponsors who previously cosponsored, but have since withdrawn their position'
+            by_party:
+              type: object
+              description: 'A mapping of number of cosponsors by party, eg `"D": 10`'
+        primary_subject:
+          type: string
+          description: 'The subject of the bill, as assigned by the Library of Congress'
+        last_major_action:
+          type: object
+          required:
+            - date
+            - action
+          description: 'Data about the last action, which may be anything from being referred to a committee to completely passing the bill'
+          properties:
+            date:
+              type: string
+              description: The date that the action took place
+            action:
+              type: string
+              description: A description of the action
+        versions:
+          type: array
+          description: 'Tracks versions of the bill as it moves through certain points in Congress, such as being passed in the House'
+          items:
+            type: object
+            properties:
+              status:
+                type: string
+                description: The point at which the bill is reported
+              title:
+                type: string
+                description: 'The title of the version, eg `"IH"`, which is a codified version of the status'
+              govinfo_url:
+                type: string
+                description: A link to the govinfo bill at the time of the status
+              congressdotgov_url:
+                type: string
+                nullable: true
+                description: A link to the congress.gov bill at the time of the status
+            required:
+              - status
+              - title
+              - govinfo_url
+              - congressdotgov_url
+        actions:
+          type: array
+          description: Actions taken in relation to the bill
+          items:
+            type: object
+            properties:
+              id:
+                type: number
+                description: A unique numerical ID for this action
+              chamber:
+                type: string
+                description: The chamber the action took place in
+              action_type:
+                type: string
+                description: 'The type of action, eg `"Calendar"`, or `"Floor"`, etc'
+              date:
+                type: string
+                description: The date it took place on
+              description:
+                type: string
+                description: A sentence describing the action
+            required:
+              - id
+              - chamber
+              - action_type
+              - date
+              - description
+        presidental_statements:
+          type: array
+          description: Statements made by the President about certain pieces of legislation
+          items:
+            type: object
+            properties:
+              date:
+                type: string
+                description: The date the statement was made on
+              position:
+                type: string
+                description: 'Whether the president supports or opposes the legislation, eg `"Opposes"`'
+              url:
+                type: string
+                description: The URL to the statement
+              veto_threat:
+                type: boolean
+                description: Whether or not the President is threatening to veto the legislation
+              would_sign:
+                type: boolean
+                description: Whether or not the President is indication they would sign the legislation
+            required:
+              - date
+              - position
+              - url
+              - veto_threat
+              - would_sign
+        votes:
+          type: array
+          description: 'Overviews of votes on this legislation, without full voting rolls'
+          items:
+            type: object
+            properties:
+              chamber:
+                type: string
+                description: The chamber the vote took place in
+                enum:
+                  - House
+                  - Senate
+              date:
+                type: string
+                description: The date it took place on
+              time:
+                type: string
+                description: The time of day it took place
+              roll_call:
+                type: integer
+                description: 'The roll call of the vote, which can be used to look up more info about the vote'
+              question:
+                type: string
+                description: 'A general question about the vote, like `"On Passage"`, `"On Agreeing to the Amendment"`, etc'
+              result:
+                type: string
+                description: 'The result of the vote, eg `"Passed"`, `"Failed"`, `"Agreed to"`, etc'
+              totals:
+                type: object
+                required:
+                  - 'yes'
+                  - 'no'
+                  - not_voting
+                description: Vote totals
+                properties:
+                  'yes':
+                    type: integer
+                    default: 0
+                    format: int32
+                    minimum: 0
+                    description: Number of votes in favor
+                  'no':
+                    type: integer
+                    default: 0
+                    format: int32
+                    minimum: 0
+                    description: Number of votes in opposition
+                  not_voting:
+                    type: integer
+                    default: 0
+                    format: int32
+                    minimum: 0
+                    description: 'Number of votes categorized as "not_voting"'
+            required:
+              - chamber
+              - date
+              - time
+              - roll_call
+              - question
+              - result
+              - totals
+      required:
+        - meta
+        - title
+        - sponsor
+        - links
+        - dates
+        - active
+        - committees
+        - summary
+        - cosponsors
+        - primary_subject
+        - last_major_action
+        - versions
+        - actions
+        - votes
+      x-examples:
+        example-1: {}
+    CommitteeMeta:
+      title: CommitteeMeta
+      type: object
+      properties:
+        id:
+          type: string
+          description: 'The identifier of the committee, eg `"HSAG"`'
+        name:
+          type: string
+          description: 'The formal name of the committee, eg `"House Agriculture Committee"`'
+    FullOrShort:
+      title: FullOrShort
+      type: object
+      description: 'A simple pair that contains a full and short version of similar strings, like a title or summary.'
+      properties:
+        full:
+          type: string
+        short:
+          type: string
+  securitySchemes:
+    API Key:
+      name: X-API-Key
+      type: apiKey
+      in: header

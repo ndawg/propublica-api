@@ -1,0 +1,216 @@
+{
+  "bill_id": "s1934-115",
+  "bill_slug": "s1934",
+  "congress": "115",
+  "bill": "S.1934",
+  "bill_type": "s",
+  "number": "S.1934",
+  "bill_uri": "https://api.propublica.org/congress/v1/115/bills/s1934.json",
+  "title": "A bill to prevent catastrophic failure or shutdown of remote diesel power engines due to emission control devices, and for other purposes.",
+  "short_title": "Alaska Remote Generator Reliability and Protection Act",
+  "sponsor_title": "Sen.",
+  "sponsor": "Dan Sullivan",
+  "sponsor_id": "S001198",
+  "sponsor_uri": "https://api.propublica.org/congress/v1/members/S001198.json",
+  "sponsor_party": "R",
+  "sponsor_state": "AK",
+  "gpo_pdf_uri": "https://www.govinfo.gov/content/pkg/BILLS-115s1934es/pdf/BILLS-115s1934es.pdf",
+  "congressdotgov_url": "https://www.congress.gov/bill/115th-congress/senate-bill/1934",
+  "govtrack_url": "https://www.govtrack.us/congress/bills/115/s1934",
+  "introduced_date": "2017-10-05",
+  "active": true,
+  "last_vote": "2018-12-21",
+  "house_passage": null,
+  "senate_passage": "2018-12-04",
+  "enacted": null,
+  "vetoed": null,
+  "cosponsors": 1,
+  "cosponsors_by_party": {
+    "R": 1
+  },
+  "withdrawn_cosponsors": 0,
+  "primary_subject": "Environmental Protection",
+  "committees": "Senate Environment and Public Works Committee",
+  "committee_codes": [
+    "SSEV"
+  ],
+  "subcommittee_codes": [
+    "SSEV10"
+  ],
+  "latest_major_action_date": "2018-12-21",
+  "latest_major_action": "On motion to suspend the rules and pass the bill Failed by the Yeas and Nays: (2/3 required): 202 - 171 (Roll no. 494).",
+  "house_passage_vote": null,
+  "senate_passage_vote": "2018-12-04",
+  "summary": "Alaska Remote Generator Reliability and Protection Act This bill directs the Environmental Protection Agency (EPA) to revise certain regulations regarding particulate matter emissions standards for nonemergency stationary diesel engines in remote areas of Alaska. The EPA must report on methods for assisting remote areas of Alaska in meeting specified energy needs. ",
+  "summary_short": "Alaska Remote Generator Reliability and Protection Act This bill directs the Environmental Protection Agency (EPA) to revise certain regulations regarding particulate matter emissions standards for nonemergency stationary diesel engines in remote areas of Alaska. The EPA must report on methods for assisting remote areas of Alaska in meeting specified energy needs. ",
+  "versions": [
+    {
+      "status": "Engrossed as Agreed to or Passed by Senate",
+      "title": "Alaska Remote Generator Reliability and Protection Act",
+      "congressdotgov_url": "https://www.govinfo.gov/content/pkg/BILLS-115s1934es/html/BILLS-115s1934es.htm"
+    }
+  ],
+  "actions": [
+    {
+      "id": 21,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2018-12-21",
+      "description": "On motion to suspend the rules and pass the bill Failed by the Yeas and Nays: (2/3 required): 202 - 171 (Roll no. 494)."
+    },
+    {
+      "id": 20,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2018-12-21",
+      "description": "Considered as unfinished business."
+    },
+    {
+      "id": 19,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2018-12-21",
+      "description": "At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed."
+    },
+    {
+      "id": 18,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2018-12-21",
+      "description": "DEBATE - The House proceeded with forty minutes of debate on S. 1934."
+    },
+    {
+      "id": 17,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2018-12-21",
+      "description": "Considered under suspension of the rules."
+    },
+    {
+      "id": 16,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2018-12-21",
+      "description": "Mr. Shimkus moved to suspend the rules and pass the bill."
+    },
+    {
+      "id": 15,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2018-12-06",
+      "description": "Held at the desk."
+    },
+    {
+      "id": 14,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2018-12-06",
+      "description": "Received in the House."
+    },
+    {
+      "id": 13,
+      "chamber": "Senate",
+      "action_type": "Floor",
+      "datetime": "2018-12-06",
+      "description": "Message on Senate action sent to the House."
+    },
+    {
+      "id": 12,
+      "chamber": "Senate",
+      "action_type": "Floor",
+      "datetime": "2018-12-04",
+      "description": "Passed Senate with an amendment by Unanimous Consent. (consideration: CR S7277-S7278; text of measure as reported in Senate: CR S7278)"
+    },
+    {
+      "id": 11,
+      "chamber": "Senate",
+      "action_type": "Floor",
+      "datetime": "2018-12-04",
+      "description": "Passed Senate with an amendment by Unanimous Consent."
+    },
+    {
+      "id": 10,
+      "chamber": "Senate",
+      "action_type": "Floor",
+      "datetime": "2018-12-04",
+      "description": "Passed Senate with an amendment by Unanimous Consent. (consideration: CR S7277-7278; text of measure as reported in Senate: CR S7278)"
+    },
+    {
+      "id": 9,
+      "chamber": "Senate",
+      "action_type": "Floor",
+      "datetime": "2018-12-04",
+      "description": "Passed Senate with an amendment by Unanimous Consent. (consideration: CR S7277-7278; text of measure as reported: CR S7278; text of measure as passed: CR S7278)"
+    },
+    {
+      "id": 8,
+      "chamber": "Senate",
+      "action_type": "Floor",
+      "datetime": "2018-11-26",
+      "description": "By Senator Barrasso from Committee on Environment and Public Works filed written report. Report No. 115-379."
+    },
+    {
+      "id": 7,
+      "chamber": "Senate",
+      "action_type": "Floor",
+      "datetime": "2018-11-26",
+      "description": "An errata sheet on written report number No. 115-379 was printed."
+    },
+    {
+      "id": 6,
+      "chamber": "Senate",
+      "action_type": "Calendars",
+      "datetime": "2018-09-18",
+      "description": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 576."
+    },
+    {
+      "id": 5,
+      "chamber": "Senate",
+      "action_type": "Committee",
+      "datetime": "2018-09-18",
+      "description": "Committee on Environment and Public Works. Reported by Senator Barrasso with an amendment in the nature of a substitute. Without written report."
+    },
+    {
+      "id": 4,
+      "chamber": "Senate",
+      "action_type": "Committee",
+      "datetime": "2018-09-18",
+      "description": "Committee on Environment and Public Works. Ordered to be reported with an amendment in the nature of a substitute favorably."
+    },
+    {
+      "id": 3,
+      "chamber": "Senate",
+      "action_type": "Committee",
+      "datetime": "2017-11-14",
+      "description": "Committee on Environment and Public Works Senate Subcommittee on Clean Air and Nuclear Safety. Hearings held. With printed Hearing: S.Hrg. 115-127."
+    },
+    {
+      "id": 2,
+      "chamber": "Senate",
+      "action_type": "Committee",
+      "datetime": "2017-11-14",
+      "description": "Committee on Environment and Public Works Subcommittee on Clean Air and Nuclear Safety. Hearings held."
+    },
+    {
+      "id": 1,
+      "chamber": "Senate",
+      "action_type": "IntroReferral",
+      "datetime": "2017-10-05",
+      "description": "Read twice and referred to the Committee on Environment and Public Works."
+    }
+  ],
+  "votes": [
+    {
+      "chamber": "House",
+      "date": "2018-12-21",
+      "time": "16:50:00",
+      "roll_call": "494",
+      "question": "On Motion to Suspend the Rules and Pass",
+      "result": "Failed",
+      "total_yes": 202,
+      "total_no": 171,
+      "total_not_voting": 59,
+      "api_url": "https://api.propublica.org/congress/v1/115/house/sessions/2/votes/494.json"
+    }
+  ]
+}

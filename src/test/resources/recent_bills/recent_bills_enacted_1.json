@@ -1,0 +1,49 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2019 Pro Publica Inc. All Rights Reserved.",
+  "results": [
+    {
+      "num_results": 1,
+      "offset": 20,
+      "bills": [
+        {
+          "bill_id": "s24-116",
+          "bill_slug": "s24",
+          "bill_type": "s",
+          "number": "S.24",
+          "bill_uri": "https://api.propublica.org/congress/v1/116/bills/s24.json",
+          "title": "A bill to provide for the compensation of Federal and other government employees affected by lapses in appropriations.",
+          "short_title": "Government Employee Fair Treatment Act of 2019",
+          "sponsor_title": "Sen.",
+          "sponsor": "Benjamin L. Cardin",
+          "sponsor_id": "C000141",
+          "sponsor_uri": "https://api.propublica.org/congress/v1/members/C000141.json",
+          "sponsor_party": "D",
+          "sponsor_state": "MD",
+          "congressdotgov_url": "https://www.congress.gov/bill/116th-congress/senate-bill/24",
+          "govtrack_url": "https://www.govtrack.us/congress/bills/116/s24",
+          "introduced_date": "2019-01-03",
+          "active": true,
+          "last_vote": "2019-01-11",
+          "house_passage": "2019-01-11",
+          "senate_passage": "2019-01-10",
+          "enacted": "2019-01-16",
+          "cosponsors": 44,
+          "cosponsors_by_party": {
+            "R": 2,
+            "D": 40,
+            "I": 0
+          },
+          "withdrawn_cosponsors": 0,
+          "primary_subject": "Government Operations and Politics",
+          "committees": "",
+          "committee_codes": [],
+          "latest_major_action_date": "2019-01-16",
+          "latest_major_action": "Became Public Law No: 116-1.",
+          "summary": "Government Employee Fair Treatment Act of 2019 This bill requires employees of the federal government or a District of Columbia public employer who are furloughed or required to work during a lapse in appropriations beginning on or after December 22, 2018, to be compensated for the period of the lapse. The employees must be compensated on the earliest date possible after the lapse ends, regardless of scheduled pay dates. Employees required to work during the lapse in appropriations may use leave. ",
+          "summary_short": "Government Employee Fair Treatment Act of 2019 This bill requires employees of the federal government or a District of Columbia public employer who are furloughed or required to work during a lapse in appropriations beginning on or after December 22, 2018, to be compensated for the period of the lapse. The employees must be compensated on the earliest date possible after the lapse ends, regardless of scheduled pay dates. Employees required to work during the lapse in appropriations may use le..."
+        }
+      ]
+    }
+  ]
+}

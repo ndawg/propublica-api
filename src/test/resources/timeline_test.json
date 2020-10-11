@@ -1,0 +1,240 @@
+{
+  "bill_id": "hjres46-116",
+  "bill_slug": "hjres46",
+  "congress": "116",
+  "bill": "H.J.RES.46",
+  "bill_type": "hjres",
+  "number": "H.J.RES.46",
+  "bill_uri": "https://api.propublica.org/congress/v1/116/bills/hjres46.json",
+  "title": "Relating to a national emergency declared by the President on February 15, 2019.",
+  "short_title": "Relating to a national emergency declared by the President on February 15, 2019.",
+  "sponsor_title": "Rep.",
+  "sponsor": "Joaquín Castro",
+  "sponsor_id": "C001091",
+  "sponsor_uri": "https://api.propublica.org/congress/v1/members/C001091.json",
+  "sponsor_party": "D",
+  "sponsor_state": "TX",
+  "gpo_pdf_uri": "https://www.govinfo.gov/content/pkg/BILLS-116hjres46enr/pdf/BILLS-116hjres46enr.pdf",
+  "congressdotgov_url": "https://www.congress.gov/bill/116th-congress/house-joint-resolution/46",
+  "govtrack_url": "https://www.govtrack.us/congress/bills/116/hjres46",
+  "introduced_date": "2019-02-22",
+  "active": true,
+  "last_vote": "2019-03-14",
+  "house_passage": "2019-02-26",
+  "senate_passage": "2019-03-14",
+  "enacted": null,
+  "vetoed": null,
+  "cosponsors": 233,
+  "cosponsors_by_party": {
+    "D": 232,
+    "R": 1
+  },
+  "withdrawn_cosponsors": 0,
+  "primary_subject": "Immigration",
+  "committees": "Senate Armed Services Committee",
+  "committee_codes": [
+    "SSAS",
+    "HSPW"
+  ],
+  "subcommittee_codes": [
+    "HSPW13"
+  ],
+  "latest_major_action_date": "2019-03-14",
+  "latest_major_action": "Message on Senate action sent to the House.",
+  "house_passage_vote": "2019-02-26",
+  "senate_passage_vote": "2019-03-14",
+  "summary": "This joint resolution terminates the national emergency related to the U.S.-Mexico border, declared by the President on February 15, 2019. ",
+  "summary_short": "This joint resolution terminates the national emergency related to the U.S.-Mexico border, declared by the President on February 15, 2019. ",
+  "versions": [
+    {
+      "status": "Enrolled as Agreed to or Passed by Both House and Senate",
+      "title": "Relating to a national emergency declared by the President on February 15, 2019.",
+      "congressdotgov_url": "https://www.govinfo.gov/content/pkg/BILLS-116hjres46enr/html/BILLS-116hjres46enr.htm"
+    },
+    {
+      "status": "Referred to Senate Committee after being Received from House",
+      "title": "Relating to a national emergency declared by the President on February 15, 2019.",
+      "congressdotgov_url": "https://www.govinfo.gov/content/pkg/BILLS-116hjres46rfs/html/BILLS-116hjres46rfs.htm"
+    },
+    {
+      "status": "Introduced in House",
+      "title": "Relating to a national emergency declared by the President on February 15, 2019.",
+      "congressdotgov_url": "https://www.govinfo.gov/content/pkg/BILLS-116hjres46ih/html/BILLS-116hjres46ih.htm"
+    }
+  ],
+  "actions": [
+    {
+      "id": 21,
+      "chamber": "Senate",
+      "action_type": "Floor",
+      "datetime": "2019-03-14",
+      "description": "Message on Senate action sent to the House."
+    },
+    {
+      "id": 20,
+      "chamber": "Senate",
+      "action_type": "Floor",
+      "datetime": "2019-03-14",
+      "description": "Passed Senate without amendment by Yea-Nay Vote. 59 - 41. Record Vote Number: 49."
+    },
+    {
+      "id": 19,
+      "chamber": "Senate",
+      "action_type": "Floor",
+      "datetime": "2019-03-14",
+      "description": "Measure laid before Senate by unanimous consent."
+    },
+    {
+      "id": 18,
+      "chamber": "Senate",
+      "action_type": "Discharge",
+      "datetime": "2019-03-14",
+      "description": "Senate Committee on Armed Services discharged by Unanimous Consent."
+    },
+    {
+      "id": 17,
+      "chamber": "Senate",
+      "action_type": "Floor",
+      "datetime": "2019-03-14",
+      "description": "Measure laid before Senate by unanimous consent. (consideration: CR S1857-1882)"
+    },
+    {
+      "id": 16,
+      "chamber": "Senate",
+      "action_type": "IntroReferral",
+      "datetime": "2019-02-27",
+      "description": "Received in the Senate and Read twice and referred to the Committee on Armed Services."
+    },
+    {
+      "id": 15,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2019-02-26",
+      "description": "On passage Passed by the Yeas and Nays: 245 - 182 (Roll no. 94). (text: CR H2130)"
+    },
+    {
+      "id": 14,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2019-02-26",
+      "description": "Considered as unfinished business. (consideration: CR H2217-2218)"
+    },
+    {
+      "id": 13,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2019-02-26",
+      "description": "Considered under the provisions of rule H. Res. 144. (consideration: CR H2130-2141)"
+    },
+    {
+      "id": 12,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2019-02-26",
+      "description": "Motion to reconsider laid on the table Agreed to without objection."
+    },
+    {
+      "id": 11,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2019-02-26",
+      "description": "On passage Passed by the Yeas and Nays: 245 - 182 (Roll no. 94)."
+    },
+    {
+      "id": 10,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2019-02-26",
+      "description": "Considered as unfinished business."
+    },
+    {
+      "id": 9,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2019-02-26",
+      "description": "POSTPONED PROCEEDINGS - At the conclusion of debate on H.J. Res. 46, the Chair put the question on passage of the joint resolution, and announced by voice vote, that the ayes had prevailed. Mr. Graves (MO) demanded the yeas and nays, and the Chair postponed further proceedings until later in the legislative day."
+    },
+    {
+      "id": 8,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2019-02-26",
+      "description": "The previous question was ordered pursuant to the rule."
+    },
+    {
+      "id": 7,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2019-02-26",
+      "description": "DEBATE - The House proceeded with one hour of debate on H.J. Res. 46."
+    },
+    {
+      "id": 6,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2019-02-26",
+      "description": "Rule provides for consideration of H.J. Res. 46 with 1 hour of general debate. Previous question shall be considered as ordered without intervening motions except motion to recommit with or without instructions. Measure will be considered read. Bill is closed to amendments."
+    },
+    {
+      "id": 5,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2019-02-26",
+      "description": "Considered under the provisions of rule H. Res. 144."
+    },
+    {
+      "id": 4,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2019-02-26",
+      "description": "Rule H. Res. 144 passed House."
+    },
+    {
+      "id": 3,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2019-02-25",
+      "description": "Rules Committee Resolution H. Res. 144 Reported to House. Rule provides for consideration of H.J. Res. 46 with 1 hour of general debate. Previous question shall be considered as ordered without intervening motions except motion to recommit with or without instructions. Measure will be considered read. Bill is closed to amendments."
+    },
+    {
+      "id": 2,
+      "chamber": "House",
+      "action_type": "Committee",
+      "datetime": "2019-02-25",
+      "description": "Referred to the Subcommittee on Economic Development, Public Buildings, and Emergency Management."
+    },
+    {
+      "id": 1,
+      "chamber": "House",
+      "action_type": "IntroReferral",
+      "datetime": "2019-02-22",
+      "description": "Referred to the House Committee on Transportation and Infrastructure."
+    }
+  ],
+  "votes": [
+    {
+      "chamber": "House",
+      "date": "2019-02-26",
+      "time": "18:32:00",
+      "roll_call": "94",
+      "question": "On Passage",
+      "result": "Passed",
+      "total_yes": 245,
+      "total_no": 182,
+      "total_not_voting": 5,
+      "api_url": "https://api.propublica.org/congress/v1/116/house/sessions/1/votes/94.json"
+    },
+    {
+      "chamber": "Senate",
+      "date": "2019-03-14",
+      "time": "14:24:00",
+      "roll_call": "49",
+      "question": "On the Joint Resolution",
+      "result": "Joint Resolution Passed",
+      "total_yes": 59,
+      "total_no": 41,
+      "total_not_voting": 0,
+      "api_url": "https://api.propublica.org/congress/v1/116/senate/sessions/1/votes/49.json"
+    }
+  ]
+}

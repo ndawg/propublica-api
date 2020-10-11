@@ -1,0 +1,1041 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2019 Pro Publica Inc. All Rights Reserved.",
+  "results": {
+    "chamber": "Both",
+    "offset": 0,
+    "num_results": 20,
+    "votes": [
+      {
+        "congress": 116,
+        "chamber": "Senate",
+        "session": 1,
+        "roll_call": 49,
+        "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00049.xml",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=116&session=1&vote=00049",
+        "vote_uri": "https://api.propublica.org/congress/v1/116/senate/sessions/1/votes/49.json",
+        "bill": {
+          "bill_id": "hjres46-116",
+          "number": "H.J.RES.46",
+          "sponsor_id": "C001091",
+          "api_uri": "https://api.propublica.org/congress/v1/116/bills/hjres46.json",
+          "title": "Relating to a national emergency declared by the President on February 15, 2019.",
+          "latest_action": "Received in the Senate and Read twice and referred to the Committee on Armed Services."
+        },
+        "amendment": {},
+        "question": "On the Joint Resolution",
+        "question_text": "On the Joint Resolution H.J.Res. 46",
+        "description": "A joint resolution relating to a national emergency declared by the President on February 15, 2019.",
+        "vote_type": "1/2",
+        "date": "2019-03-14",
+        "time": "14:24:00",
+        "result": "Joint Resolution Passed",
+        "democratic": {
+          "yes": 45,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0,
+          "majority_position": "Yes"
+        },
+        "republican": {
+          "yes": 12,
+          "no": 41,
+          "present": 0,
+          "not_voting": 0,
+          "majority_position": "No"
+        },
+        "independent": {
+          "yes": 2,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 59,
+          "no": 41,
+          "present": 0,
+          "not_voting": 0
+        }
+      },
+      {
+        "congress": 116,
+        "chamber": "House",
+        "session": 1,
+        "roll_call": 125,
+        "source": "http://clerk.house.gov/evs/2019/roll125.xml",
+        "url": "http://clerk.house.gov/evs/2019/roll125.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/116/house/sessions/1/votes/125.json",
+        "bill": {
+          "bill_id": "hconres24-116",
+          "number": "H.CON.RES.24",
+          "sponsor_id": "N000002",
+          "api_uri": "https://api.propublica.org/congress/v1/116/bills/hconres24.json",
+          "title": "Expressing the sense of Congress that the report of Special Counsel Mueller should be made available to the public and to Congress.",
+          "latest_action": "Rule H. Res. 208 passed House."
+        },
+        "amendment": {},
+        "question": "On Agreeing to the Resolution",
+        "question_text": "",
+        "description": "Expressing the sense of Congress that the report of Special Counsel Mueller should be made available to the public and to Congress",
+        "vote_type": "YEA-AND-NAY",
+        "date": "2019-03-14",
+        "time": "10:30:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 230,
+          "no": 0,
+          "present": 0,
+          "not_voting": 4,
+          "majority_position": "Yes"
+        },
+        "republican": {
+          "yes": 190,
+          "no": 0,
+          "present": 4,
+          "not_voting": 4,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 420,
+          "no": 0,
+          "present": 4,
+          "not_voting": 7
+        }
+      },
+      {
+        "congress": 116,
+        "chamber": "Senate",
+        "session": 1,
+        "roll_call": 48,
+        "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00048.xml",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=116&session=1&vote=00048",
+        "vote_uri": "https://api.propublica.org/congress/v1/116/senate/sessions/1/votes/48.json",
+        "bill": {
+          "bill_id": "sjres7-116",
+          "number": "S.J.RES.7",
+          "sponsor_id": "S000033",
+          "api_uri": "https://api.propublica.org/congress/v1/116/bills/sjres7.json",
+          "title": "A joint resolution to direct the removal of United States Armed Forces from hostilities in the Republic of Yemen that have not been authorized by Congress.",
+          "latest_action": "Passed Senate with amendments by Yea-Nay Vote. 54 - 46. Record Vote Number: 48. (text: CR S1835-1836)"
+        },
+        "amendment": {},
+        "question": "On the Joint Resolution",
+        "question_text": "On the Joint Resolution S.J.Res. 7",
+        "description": "A joint resolution to direct the removal of United States Armed Forces from hostilities in the Republic of Yemen that have not been authorized by Congress.",
+        "vote_type": "1/2",
+        "date": "2019-03-13",
+        "time": "18:04:00",
+        "result": "Joint Resolution Passed",
+        "democratic": {
+          "yes": 45,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0,
+          "majority_position": "Yes"
+        },
+        "republican": {
+          "yes": 7,
+          "no": 46,
+          "present": 0,
+          "not_voting": 0,
+          "majority_position": "No"
+        },
+        "independent": {
+          "yes": 2,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 54,
+          "no": 46,
+          "present": 0,
+          "not_voting": 0
+        }
+      },
+      {
+        "congress": 116,
+        "chamber": "Senate",
+        "session": 1,
+        "roll_call": 47,
+        "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00047.xml",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=116&session=1&vote=00047",
+        "vote_uri": "https://api.propublica.org/congress/v1/116/senate/sessions/1/votes/47.json",
+        "bill": {
+          "bill_id": "sjres7-116",
+          "number": "S.J.RES.7",
+          "sponsor_id": "S000033",
+          "api_uri": "https://api.propublica.org/congress/v1/116/bills/sjres7.json",
+          "title": "A joint resolution to direct the removal of United States Armed Forces from hostilities in the Republic of Yemen that have not been authorized by Congress.",
+          "latest_action": "Passed Senate with amendments by Yea-Nay Vote. 54 - 46. Record Vote Number: 48. (text: CR S1835-1836)"
+        },
+        "amendment": {
+          "number": "S.Amdt. 194",
+          "api_uri": "https://api.propublica.org/congress/v1/116/amendments/samdt194.json",
+          "sponsor_id": "I000024",
+          "sponsor": "James M. Inhofe",
+          "sponsor_uri": "https://api.propublica.org/congress/v1/members/I000024.json",
+          "sponsor_party": "R",
+          "sponsor_state": "Okla."
+        },
+        "question": "On the Motion to Table",
+        "question_text": "On the Motion to Table S.Amdt. 194 to S.J.Res. 7 (No short title on file)",
+        "description": "To provide an exception for supporting efforts to defend against ballistic missile, cruise missile, and unmanned aerial vehicle threats to civilian population centers in coalition countries, including locations where citizens and nationals of the United States reside.",
+        "vote_type": "1/2",
+        "date": "2019-03-13",
+        "time": "17:30:00",
+        "result": "Motion to Table Agreed to",
+        "democratic": {
+          "yes": 45,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0,
+          "majority_position": "Yes"
+        },
+        "republican": {
+          "yes": 5,
+          "no": 48,
+          "present": 0,
+          "not_voting": 0,
+          "majority_position": "No"
+        },
+        "independent": {
+          "yes": 2,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 52,
+          "no": 48,
+          "present": 0,
+          "not_voting": 0
+        }
+      },
+      {
+        "congress": 116,
+        "chamber": "House",
+        "session": 1,
+        "roll_call": 124,
+        "source": "http://clerk.house.gov/evs/2019/roll124.xml",
+        "url": "http://clerk.house.gov/evs/2019/roll124.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/116/house/sessions/1/votes/124.json",
+        "bill": {
+          "bill_id": "hres208-116",
+          "number": "H.RES.208",
+          "sponsor_id": "D000623",
+          "api_uri": "https://api.propublica.org/congress/v1/116/bills/hres208.json",
+          "title": "Providing for consideration of the concurrent resolution (H. Con. Res. 24) expressing the sense of Congress that the report of Special Counsel Mueller should be made available to the public and to Congress, and providing for proceedings during the period from March 15, 2019, through March 22, 2019.",
+          "latest_action": "Motion to reconsider laid on the table Agreed to without objection."
+        },
+        "amendment": {},
+        "question": "On Agreeing to the Resolution",
+        "question_text": "",
+        "description": "Providing for consideration of H. Con. Res. 24, expressing the sense of Congress that the report of Special Counsel Mueller should be made available to the public and to Congress; providing for proceedings during the period from March 15, 2019, through March 22, 2019",
+        "vote_type": "YEA-AND-NAY",
+        "date": "2019-03-13",
+        "time": "13:59:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 233,
+          "no": 0,
+          "present": 0,
+          "not_voting": 1,
+          "majority_position": "Yes"
+        },
+        "republican": {
+          "yes": 0,
+          "no": 195,
+          "present": 0,
+          "not_voting": 3,
+          "majority_position": "No"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 233,
+          "no": 195,
+          "present": 0,
+          "not_voting": 3
+        }
+      },
+      {
+        "congress": 116,
+        "chamber": "Senate",
+        "session": 1,
+        "roll_call": 46,
+        "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00046.xml",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=116&session=1&vote=00046",
+        "vote_uri": "https://api.propublica.org/congress/v1/116/senate/sessions/1/votes/46.json",
+        "bill": {},
+        "amendment": {},
+        "nomination": {
+          "nomination_id": "PN171-116",
+          "number": "PN171",
+          "name": "William Beach",
+          "agency": "Department of Labor"
+        },
+        "question": "On the Nomination",
+        "question_text": "On the Nomination PN171",
+        "description": "William Beach, of Kansas, to be Commissioner of Labor Statistics, Department of Labor, for a term of four years",
+        "vote_type": "1/2",
+        "date": "2019-03-13",
+        "time": "13:47:00",
+        "result": "Nomination Confirmed",
+        "democratic": {
+          "yes": 2,
+          "no": 42,
+          "present": 0,
+          "not_voting": 1,
+          "majority_position": "No"
+        },
+        "republican": {
+          "yes": 53,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 2,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 55,
+          "no": 44,
+          "present": 0,
+          "not_voting": 1
+        }
+      },
+      {
+        "congress": 116,
+        "chamber": "Senate",
+        "session": 1,
+        "roll_call": 45,
+        "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00045.xml",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=116&session=1&vote=00045",
+        "vote_uri": "https://api.propublica.org/congress/v1/116/senate/sessions/1/votes/45.json",
+        "bill": {},
+        "amendment": {},
+        "nomination": {
+          "nomination_id": "PN171-116",
+          "number": "PN171",
+          "name": "William Beach",
+          "agency": "Department of Labor"
+        },
+        "question": "On the Cloture Motion",
+        "question_text": "On the Cloture Motion PN171",
+        "description": "William Beach, of Kansas, to be Commissioner of Labor Statistics, Department of Labor, for a term of four years",
+        "vote_type": "1/2",
+        "date": "2019-03-13",
+        "time": "12:41:00",
+        "result": "Cloture Motion Agreed to",
+        "democratic": {
+          "yes": 2,
+          "no": 41,
+          "present": 0,
+          "not_voting": 2,
+          "majority_position": "No"
+        },
+        "republican": {
+          "yes": 53,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 2,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 55,
+          "no": 43,
+          "present": 0,
+          "not_voting": 2
+        }
+      },
+      {
+        "congress": 116,
+        "chamber": "Senate",
+        "session": 1,
+        "roll_call": 44,
+        "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00044.xml",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=116&session=1&vote=00044",
+        "vote_uri": "https://api.propublica.org/congress/v1/116/senate/sessions/1/votes/44.json",
+        "bill": {},
+        "amendment": {},
+        "nomination": {
+          "nomination_id": "PN247-116",
+          "number": "PN247",
+          "name": "Neomi J. Rao",
+          "agency": "The Judiciary"
+        },
+        "question": "On the Nomination",
+        "question_text": "On the Nomination PN247",
+        "description": "Neomi J. Rao, of the District of Columbia, to be United States Circuit Judge for the District of Columbia Circuit",
+        "vote_type": "1/2",
+        "date": "2019-03-13",
+        "time": "12:00:00",
+        "result": "Nomination Confirmed",
+        "democratic": {
+          "yes": 0,
+          "no": 44,
+          "present": 0,
+          "not_voting": 1,
+          "majority_position": "No"
+        },
+        "republican": {
+          "yes": 53,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 2,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 53,
+          "no": 46,
+          "present": 0,
+          "not_voting": 1
+        }
+      },
+      {
+        "congress": 116,
+        "chamber": "Senate",
+        "session": 1,
+        "roll_call": 43,
+        "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00043.xml",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=116&session=1&vote=00043",
+        "vote_uri": "https://api.propublica.org/congress/v1/116/senate/sessions/1/votes/43.json",
+        "bill": {},
+        "amendment": {},
+        "nomination": {
+          "nomination_id": "PN247-116",
+          "number": "PN247",
+          "name": "Neomi J. Rao",
+          "agency": "The Judiciary"
+        },
+        "question": "On the Cloture Motion",
+        "question_text": "On the Cloture Motion PN247",
+        "description": "Neomi J. Rao, of the District of Columbia, to be United States Circuit Judge for the District of Columbia Circuit",
+        "vote_type": "1/2",
+        "date": "2019-03-12",
+        "time": "14:59:00",
+        "result": "Cloture Motion Agreed to",
+        "democratic": {
+          "yes": 0,
+          "no": 44,
+          "present": 0,
+          "not_voting": 1,
+          "majority_position": "No"
+        },
+        "republican": {
+          "yes": 53,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 2,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 53,
+          "no": 46,
+          "present": 0,
+          "not_voting": 1
+        }
+      },
+      {
+        "congress": 116,
+        "chamber": "House",
+        "session": 1,
+        "roll_call": 123,
+        "source": "http://clerk.house.gov/evs/2019/roll123.xml",
+        "url": "http://clerk.house.gov/evs/2019/roll123.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/116/house/sessions/1/votes/123.json",
+        "bill": {
+          "bill_id": "hr1654-116",
+          "number": "H.R.1654",
+          "sponsor_id": "M001187",
+          "api_uri": "https://api.propublica.org/congress/v1/116/bills/hr1654.json",
+          "title": "To amend title 44, United States Code, to modernize the Federal Register, and for other purposes.",
+          "latest_action": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+        },
+        "amendment": {},
+        "question": "On Motion to Suspend the Rules and Pass, as Amended",
+        "question_text": "",
+        "description": "Federal Register Modernization Act",
+        "vote_type": "2/3 YEA-AND-NAY",
+        "date": "2019-03-12",
+        "time": "14:50:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 231,
+          "no": 0,
+          "present": 0,
+          "not_voting": 3,
+          "majority_position": "Yes"
+        },
+        "republican": {
+          "yes": 195,
+          "no": 1,
+          "present": 0,
+          "not_voting": 2,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 426,
+          "no": 1,
+          "present": 0,
+          "not_voting": 4
+        }
+      },
+      {
+        "congress": 116,
+        "chamber": "House",
+        "session": 1,
+        "roll_call": 122,
+        "source": "http://clerk.house.gov/evs/2019/roll122.xml",
+        "url": "http://clerk.house.gov/evs/2019/roll122.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/116/house/sessions/1/votes/122.json",
+        "bill": {
+          "bill_id": "hr596-116",
+          "number": "H.R.596",
+          "sponsor_id": "C001078",
+          "api_uri": "https://api.propublica.org/congress/v1/116/bills/hr596.json",
+          "title": "To prohibit United States Government recognition of Russia's annexation of Crimea.",
+          "latest_action": "Received in the Senate and Read twice and referred to the Committee on Foreign Relations."
+        },
+        "amendment": {},
+        "question": "On Motion to Suspend the Rules and Pass, as Amended",
+        "question_text": "",
+        "description": "Crimea Annexation Non-recognition Act",
+        "vote_type": "2/3 YEA-AND-NAY",
+        "date": "2019-03-12",
+        "time": "14:40:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 232,
+          "no": 0,
+          "present": 0,
+          "not_voting": 2,
+          "majority_position": "Yes"
+        },
+        "republican": {
+          "yes": 195,
+          "no": 1,
+          "present": 0,
+          "not_voting": 2,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 427,
+          "no": 1,
+          "present": 0,
+          "not_voting": 3
+        }
+      },
+      {
+        "congress": 116,
+        "chamber": "Senate",
+        "session": 1,
+        "roll_call": 42,
+        "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00042.xml",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=116&session=1&vote=00042",
+        "vote_uri": "https://api.propublica.org/congress/v1/116/senate/sessions/1/votes/42.json",
+        "bill": {},
+        "amendment": {},
+        "nomination": {
+          "nomination_id": "PN236-116",
+          "number": "PN236",
+          "name": "Paul B. Matey",
+          "agency": "The Judiciary"
+        },
+        "question": "On the Nomination",
+        "question_text": "On the Nomination PN236",
+        "description": "Paul B. Matey, of New Jersey, to be United States Circuit Judge for the Third Circuit",
+        "vote_type": "1/2",
+        "date": "2019-03-12",
+        "time": "14:30:00",
+        "result": "Nomination Confirmed",
+        "democratic": {
+          "yes": 1,
+          "no": 43,
+          "present": 0,
+          "not_voting": 1,
+          "majority_position": "No"
+        },
+        "republican": {
+          "yes": 53,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 2,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 54,
+          "no": 45,
+          "present": 0,
+          "not_voting": 1
+        }
+      },
+      {
+        "congress": 116,
+        "chamber": "House",
+        "session": 1,
+        "roll_call": 121,
+        "source": "http://clerk.house.gov/evs/2019/roll121.xml",
+        "url": "http://clerk.house.gov/evs/2019/roll121.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/116/house/sessions/1/votes/121.json",
+        "bill": {
+          "bill_id": "hres156-116",
+          "number": "H.RES.156",
+          "sponsor_id": "E000179",
+          "api_uri": "https://api.propublica.org/congress/v1/116/bills/hres156.json",
+          "title": "Calling for accountability and justice for the assassination of Boris Nemtsov.",
+          "latest_action": "Motion to reconsider laid on the table Agreed to without objection."
+        },
+        "amendment": {},
+        "question": "On Motion to Suspend the Rules and Agree, as Amended",
+        "question_text": "",
+        "description": "Calling for accountability and justice for the assassination of Boris Nemtsov",
+        "vote_type": "2/3 YEA-AND-NAY",
+        "date": "2019-03-12",
+        "time": "14:22:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 229,
+          "no": 0,
+          "present": 0,
+          "not_voting": 5,
+          "majority_position": "Yes"
+        },
+        "republican": {
+          "yes": 187,
+          "no": 1,
+          "present": 0,
+          "not_voting": 10,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 416,
+          "no": 1,
+          "present": 0,
+          "not_voting": 14
+        }
+      },
+      {
+        "congress": 116,
+        "chamber": "House",
+        "session": 1,
+        "roll_call": 120,
+        "source": "http://clerk.house.gov/evs/2019/roll120.xml",
+        "url": "http://clerk.house.gov/evs/2019/roll120.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/116/house/sessions/1/votes/120.json",
+        "bill": {
+          "bill_id": "hr758-116",
+          "number": "H.R.758",
+          "sponsor_id": "H001072",
+          "api_uri": "https://api.propublica.org/congress/v1/116/bills/hr758.json",
+          "title": "To provide a safe harbor for financial institutions that maintain a customer account or customer transaction at the request of a Federal or State law enforcement agency.",
+          "latest_action": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+        },
+        "amendment": {},
+        "question": "On Motion to Suspend the Rules and Pass, as Amended",
+        "question_text": "",
+        "description": "Cooperate with Law Enforcement Agencies and Watch Act",
+        "vote_type": "2/3 YEA-AND-NAY",
+        "date": "2019-03-11",
+        "time": "19:06:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 218,
+          "no": 0,
+          "present": 0,
+          "not_voting": 16,
+          "majority_position": "Yes"
+        },
+        "republican": {
+          "yes": 186,
+          "no": 7,
+          "present": 0,
+          "not_voting": 5,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 404,
+          "no": 7,
+          "present": 0,
+          "not_voting": 20
+        }
+      },
+      {
+        "congress": 116,
+        "chamber": "House",
+        "session": 1,
+        "roll_call": 119,
+        "source": "http://clerk.house.gov/evs/2019/roll119.xml",
+        "url": "http://clerk.house.gov/evs/2019/roll119.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/116/house/sessions/1/votes/119.json",
+        "bill": {
+          "bill_id": "hr1122-116",
+          "number": "H.R.1122",
+          "sponsor_id": "C001061",
+          "api_uri": "https://api.propublica.org/congress/v1/116/bills/hr1122.json",
+          "title": "To authorize the Secretary of Housing and Urban Development to carry out a housing choice voucher mobility demonstration to encourage families receiving such voucher assistance to move to lower-poverty areas and expand access to opportunity areas.",
+          "latest_action": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+        },
+        "amendment": {},
+        "question": "On Motion to Suspend the Rules and Pass",
+        "question_text": "",
+        "description": "Housing Choice Voucher Mobility Demonstration Act",
+        "vote_type": "2/3 YEA-AND-NAY",
+        "date": "2019-03-11",
+        "time": "18:56:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 219,
+          "no": 0,
+          "present": 0,
+          "not_voting": 15,
+          "majority_position": "Yes"
+        },
+        "republican": {
+          "yes": 168,
+          "no": 22,
+          "present": 0,
+          "not_voting": 8,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 387,
+          "no": 22,
+          "present": 0,
+          "not_voting": 22
+        }
+      },
+      {
+        "congress": 116,
+        "chamber": "Senate",
+        "session": 1,
+        "roll_call": 41,
+        "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00041.xml",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=116&session=1&vote=00041",
+        "vote_uri": "https://api.propublica.org/congress/v1/116/senate/sessions/1/votes/41.json",
+        "bill": {},
+        "amendment": {},
+        "nomination": {
+          "nomination_id": "PN236-116",
+          "number": "PN236",
+          "name": "Paul B. Matey",
+          "agency": "The Judiciary"
+        },
+        "question": "On the Cloture Motion",
+        "question_text": "On the Cloture Motion PN236",
+        "description": "Paul B. Matey, of New Jersey, to be United States Circuit Judge for the Third Circuit",
+        "vote_type": "1/2",
+        "date": "2019-03-11",
+        "time": "17:32:00",
+        "result": "Cloture Motion Agreed to",
+        "democratic": {
+          "yes": 0,
+          "no": 43,
+          "present": 0,
+          "not_voting": 2,
+          "majority_position": "No"
+        },
+        "republican": {
+          "yes": 50,
+          "no": 0,
+          "present": 0,
+          "not_voting": 3,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 1,
+          "present": 0,
+          "not_voting": 1
+        },
+        "total": {
+          "yes": 50,
+          "no": 44,
+          "present": 0,
+          "not_voting": 6
+        }
+      },
+      {
+        "congress": 116,
+        "chamber": "House",
+        "session": 1,
+        "roll_call": 118,
+        "source": "http://clerk.house.gov/evs/2019/roll118.xml",
+        "url": "http://clerk.house.gov/evs/2019/roll118.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/116/house/sessions/1/votes/118.json",
+        "bill": {
+          "bill_id": "hr1-116",
+          "number": "H.R.1",
+          "sponsor_id": "S001168",
+          "api_uri": "https://api.propublica.org/congress/v1/116/bills/hr1.json",
+          "title": "To expand Americans' access to the ballot box, reduce the influence of big money in politics, and strengthen ethics rules for public servants, and for other purposes.",
+          "latest_action": "Read the first time. Placed on Senate Legislative Calendar under Read the First Time."
+        },
+        "amendment": {},
+        "question": "On Passage",
+        "question_text": "",
+        "description": "For the People Act",
+        "vote_type": "YEA-AND-NAY",
+        "date": "2019-03-08",
+        "time": "11:21:00",
+        "result": "Passed",
+        "democratic": {
+          "yes": 234,
+          "no": 0,
+          "present": 0,
+          "not_voting": 1,
+          "majority_position": "Yes"
+        },
+        "republican": {
+          "yes": 0,
+          "no": 193,
+          "present": 0,
+          "not_voting": 4,
+          "majority_position": "No"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 234,
+          "no": 193,
+          "present": 0,
+          "not_voting": 5
+        }
+      },
+      {
+        "congress": 116,
+        "chamber": "House",
+        "session": 1,
+        "roll_call": 117,
+        "source": "http://clerk.house.gov/evs/2019/roll117.xml",
+        "url": "http://clerk.house.gov/evs/2019/roll117.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/116/house/sessions/1/votes/117.json",
+        "bill": {
+          "bill_id": "hr1-116",
+          "number": "H.R.1",
+          "sponsor_id": "S001168",
+          "api_uri": "https://api.propublica.org/congress/v1/116/bills/hr1.json",
+          "title": "To expand Americans' access to the ballot box, reduce the influence of big money in politics, and strengthen ethics rules for public servants, and for other purposes.",
+          "latest_action": "Read the first time. Placed on Senate Legislative Calendar under Read the First Time."
+        },
+        "amendment": {},
+        "question": "On Motion to Recommit with Instructions",
+        "question_text": "",
+        "description": "For the People Act",
+        "vote_type": "YEA-AND-NAY",
+        "date": "2019-03-08",
+        "time": "11:11:00",
+        "result": "Failed",
+        "democratic": {
+          "yes": 6,
+          "no": 227,
+          "present": 0,
+          "not_voting": 2,
+          "majority_position": "No"
+        },
+        "republican": {
+          "yes": 191,
+          "no": 1,
+          "present": 0,
+          "not_voting": 5,
+          "majority_position": "Yes"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 197,
+          "no": 228,
+          "present": 0,
+          "not_voting": 7
+        }
+      },
+      {
+        "congress": 116,
+        "chamber": "House",
+        "session": 1,
+        "roll_call": 116,
+        "source": "http://clerk.house.gov/evs/2019/roll116.xml",
+        "url": "http://clerk.house.gov/evs/2019/roll116.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/116/house/sessions/1/votes/116.json",
+        "bill": {
+          "bill_id": "hr1-116",
+          "number": "H.R.1",
+          "sponsor_id": "S001168",
+          "api_uri": "https://api.propublica.org/congress/v1/116/bills/hr1.json",
+          "title": "To expand Americans' access to the ballot box, reduce the influence of big money in politics, and strengthen ethics rules for public servants, and for other purposes.",
+          "latest_action": "Read the first time. Placed on Senate Legislative Calendar under Read the First Time."
+        },
+        "amendment": {},
+        "question": "On Agreeing to the Amendment",
+        "question_text": "",
+        "description": "Neguse of Colorado Part B Amendment No. 70",
+        "vote_type": "RECORDED VOTE",
+        "date": "2019-03-08",
+        "time": "10:33:00",
+        "result": "Agreed to",
+        "democratic": {
+          "yes": 231,
+          "no": 0,
+          "present": 0,
+          "not_voting": 7,
+          "majority_position": "Yes"
+        },
+        "republican": {
+          "yes": 8,
+          "no": 186,
+          "present": 0,
+          "not_voting": 6,
+          "majority_position": "No"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 239,
+          "no": 186,
+          "present": 0,
+          "not_voting": 12
+        }
+      },
+      {
+        "congress": 116,
+        "chamber": "House",
+        "session": 1,
+        "roll_call": 115,
+        "source": "http://clerk.house.gov/evs/2019/roll115.xml",
+        "url": "http://clerk.house.gov/evs/2019/roll115.xml",
+        "vote_uri": "https://api.propublica.org/congress/v1/116/house/sessions/1/votes/115.json",
+        "bill": {
+          "bill_id": "hr1-116",
+          "number": "H.R.1",
+          "sponsor_id": "S001168",
+          "api_uri": "https://api.propublica.org/congress/v1/116/bills/hr1.json",
+          "title": "To expand Americans' access to the ballot box, reduce the influence of big money in politics, and strengthen ethics rules for public servants, and for other purposes.",
+          "latest_action": "Read the first time. Placed on Senate Legislative Calendar under Read the First Time."
+        },
+        "amendment": {
+          "number": "H.AMDT.95",
+          "api_uri": "https://api.propublica.org/congress/v1/116/amendments/hamdt95.json",
+          "sponsor_id": "B001308",
+          "sponsor": "Anthony Brindisi",
+          "sponsor_uri": "https://api.propublica.org/congress/v1/members/B001308.json",
+          "sponsor_party": "D",
+          "sponsor_state": "N.Y."
+        },
+        "question": "On Agreeing to the Amendment",
+        "question_text": "",
+        "description": "Brindisi of New York Part B Amendment No. 54",
+        "vote_type": "RECORDED VOTE",
+        "date": "2019-03-08",
+        "time": "10:27:00",
+        "result": "Agreed to",
+        "democratic": {
+          "yes": 234,
+          "no": 0,
+          "present": 0,
+          "not_voting": 4,
+          "majority_position": "Yes"
+        },
+        "republican": {
+          "yes": 3,
+          "no": 188,
+          "present": 0,
+          "not_voting": 9,
+          "majority_position": "No"
+        },
+        "independent": {
+          "yes": 0,
+          "no": 0,
+          "present": 0,
+          "not_voting": 0
+        },
+        "total": {
+          "yes": 237,
+          "no": 188,
+          "present": 0,
+          "not_voting": 12
+        }
+      }
+    ]
+  }
+}

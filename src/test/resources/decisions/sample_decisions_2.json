@@ -1,0 +1,228 @@
+{
+  "bill_id": "s2736-115",
+  "bill_slug": "s2736",
+  "congress": "115",
+  "bill": "S.2736",
+  "bill_type": "s",
+  "number": "S.2736",
+  "bill_uri": "https://api.propublica.org/congress/v1/115/bills/s2736.json",
+  "title": "A bill to develop a long-term strategic vision and a comprehensive, multifaceted, and principled United States policy for the Indo-Pacific region, and for other purposes.",
+  "short_title": "Asia Reassurance Initiative Act of 2018",
+  "sponsor_title": "Sen.",
+  "sponsor": "Cory Gardner",
+  "sponsor_id": "G000562",
+  "sponsor_uri": "https://api.propublica.org/congress/v1/members/G000562.json",
+  "sponsor_party": "R",
+  "sponsor_state": "CO",
+  "gpo_pdf_uri": "https://www.govinfo.gov/content/pkg/BILLS-115s2736enr/pdf/BILLS-115s2736enr.pdf",
+  "congressdotgov_url": "https://www.congress.gov/bill/115th-congress/senate-bill/2736",
+  "govtrack_url": "https://www.govtrack.us/congress/bills/115/s2736",
+  "introduced_date": "2018-04-24",
+  "active": true,
+  "last_vote": null,
+  "house_passage": "2018-12-12",
+  "senate_passage": "2018-12-04",
+  "enacted": null,
+  "vetoed": null,
+  "cosponsors": 11,
+  "cosponsors_by_party": {
+    "D": 5,
+    "R": 6
+  },
+  "withdrawn_cosponsors": 0,
+  "primary_subject": "International Affairs",
+  "committees": "Senate Foreign Relations Committee",
+  "committee_codes": [
+    "SSFR"
+  ],
+  "subcommittee_codes": [],
+  "latest_major_action_date": "2018-12-19",
+  "latest_major_action": "Message on Senate action sent to the House.",
+  "house_passage_vote": "2018-12-12",
+  "senate_passage_vote": "2018-12-04",
+  "summary": "",
+  "summary_short": "",
+  "versions": [
+    {
+      "status": "Enrolled as Agreed to or Passed by Both House and Senate",
+      "title": "Asia Reassurance Initiative Act of 2018",
+      "congressdotgov_url": "https://www.govinfo.gov/content/pkg/BILLS-115s2736enr/html/BILLS-115s2736enr.htm"
+    },
+    {
+      "status": "Engrossed Amendment as Agreed to by House",
+      "title": "Asia Reassurance Initiative Act of 2018",
+      "congressdotgov_url": "https://www.govinfo.gov/content/pkg/BILLS-115s2736eah/html/BILLS-115s2736eah.htm"
+    }
+  ],
+  "actions": [
+    {
+      "id": 24,
+      "chamber": "Senate",
+      "action_type": "Floor",
+      "datetime": "2018-12-19",
+      "description": "Message on Senate action sent to the House."
+    },
+    {
+      "id": 23,
+      "chamber": "Senate",
+      "action_type": "ResolvingDifferences",
+      "datetime": "2018-12-19",
+      "description": "Senate agreed to the House amendment to S. 2736 by Unanimous Consent."
+    },
+    {
+      "id": 22,
+      "chamber": "Senate",
+      "action_type": "ResolvingDifferences",
+      "datetime": "2018-12-19",
+      "description": "Senate agreed to the House amendment to S. 2736 by Unanimous Consent. (consideration: CR S7865)"
+    },
+    {
+      "id": 21,
+      "chamber": "Senate",
+      "action_type": "Floor",
+      "datetime": "2018-12-13",
+      "description": "Message on House action received in Senate and at desk: House amendment to Senate bill."
+    },
+    {
+      "id": 20,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2018-12-12",
+      "description": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H10130-10136)"
+    },
+    {
+      "id": 19,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2018-12-12",
+      "description": "Considered under suspension of the rules. (consideration: CR H10130-10138)"
+    },
+    {
+      "id": 18,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2018-12-12",
+      "description": "Motion to reconsider laid on the table Agreed to without objection."
+    },
+    {
+      "id": 17,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2018-12-12",
+      "description": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote."
+    },
+    {
+      "id": 16,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2018-12-12",
+      "description": "DEBATE - The House proceeded with forty minutes of debate on S. 2736."
+    },
+    {
+      "id": 15,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2018-12-12",
+      "description": "Considered under suspension of the rules."
+    },
+    {
+      "id": 14,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2018-12-12",
+      "description": "Ms. Ros-Lehtinen moved to suspend the rules and pass the bill, as amended."
+    },
+    {
+      "id": 13,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2018-12-06",
+      "description": "Held at the desk."
+    },
+    {
+      "id": 12,
+      "chamber": "House",
+      "action_type": "Floor",
+      "datetime": "2018-12-06",
+      "description": "Received in the House."
+    },
+    {
+      "id": 11,
+      "chamber": "Senate",
+      "action_type": "Floor",
+      "datetime": "2018-12-06",
+      "description": "Message on Senate action sent to the House."
+    },
+    {
+      "id": 10,
+      "chamber": "Senate",
+      "action_type": "Floor",
+      "datetime": "2018-12-04",
+      "description": "Passed Senate with an amendment by Unanimous Consent."
+    },
+    {
+      "id": 9,
+      "chamber": "Senate",
+      "action_type": "Floor",
+      "datetime": "2018-12-04",
+      "description": "The committee substitute as amended agreed to by Unanimous Consent."
+    },
+    {
+      "id": 8,
+      "chamber": "Senate",
+      "action_type": "Floor",
+      "datetime": "2018-12-04",
+      "description": "Measure laid before Senate by unanimous consent."
+    },
+    {
+      "id": 7,
+      "chamber": "Senate",
+      "action_type": "Floor",
+      "datetime": "2018-12-04",
+      "description": "Passed Senate with an amendment by Unanimous Consent. (text: CR S7285-7291)"
+    },
+    {
+      "id": 6,
+      "chamber": "Senate",
+      "action_type": "Floor",
+      "datetime": "2018-12-04",
+      "description": "The committee substitute as amended agreed to by Unanimous Consent. (text: CR S7278-7284)"
+    },
+    {
+      "id": 5,
+      "chamber": "Senate",
+      "action_type": "Floor",
+      "datetime": "2018-12-04",
+      "description": "Measure laid before Senate by unanimous consent. (consideration: CR S7278-7291)"
+    },
+    {
+      "id": 4,
+      "chamber": "Senate",
+      "action_type": "Calendars",
+      "datetime": "2018-10-03",
+      "description": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 616."
+    },
+    {
+      "id": 3,
+      "chamber": "Senate",
+      "action_type": "Committee",
+      "datetime": "2018-10-03",
+      "description": "Committee on Foreign Relations. Reported by Senator Corker with an amendment in the nature of a substitute. Without written report."
+    },
+    {
+      "id": 2,
+      "chamber": "Senate",
+      "action_type": "Committee",
+      "datetime": "2018-09-26",
+      "description": "Committee on Foreign Relations. Ordered to be reported with an amendment in the nature of a substitute favorably."
+    },
+    {
+      "id": 1,
+      "chamber": "Senate",
+      "action_type": "IntroReferral",
+      "datetime": "2018-04-24",
+      "description": "Read twice and referred to the Committee on Foreign Relations."
+    }
+  ],
+  "votes": []
+}

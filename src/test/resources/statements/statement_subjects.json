@@ -1,0 +1,316 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2019 Pro Publica Inc. All Rights Reserved.",
+  "results": [
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/2016-election-russia-investigation.json",
+      "name": "2016 Election Russia Investigation",
+      "slug": "2016-election-russia-investigation"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/affordable-care-act-repeal.json",
+      "name": "Affordable Care Act Repeal",
+      "slug": "affordable-care-act-repeal"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/afghanistan.json",
+      "name": "Afghanistan",
+      "slug": "afghanistan"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/air-traffic-controllers.json",
+      "name": "Air traffic controllers",
+      "slug": "air-traffic-controllers"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/antisemitism.json",
+      "name": "Antisemitism",
+      "slug": "antisemitism"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/appalachia.json",
+      "name": "Appalachia",
+      "slug": "appalachia"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/appalachian-regional-commission.json",
+      "name": "Appalachian Regional Commission",
+      "slug": "appalachian-regional-commission"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/australia.json",
+      "name": "Australia",
+      "slug": "australia"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/betsy-devos.json",
+      "name": "Betsy DeVos",
+      "slug": "betsy-devos"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/budgets.json",
+      "name": "Budgets",
+      "slug": "budgets"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/central-intelligence-agency.json",
+      "name": "Central Intelligence Agency",
+      "slug": "central-intelligence-agency"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/charlottesville.json",
+      "name": "Charlottesville",
+      "slug": "charlottesville"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/climate-change.json",
+      "name": "Climate change",
+      "slug": "climate-change"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/commencements.json",
+      "name": "Commencements",
+      "slug": "commencements"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/computers-and-information-technology.json",
+      "name": "Computers and information technology",
+      "slug": "computers-and-information-technology"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/consumer-financial-protection-bureau.json",
+      "name": "Consumer Financial Protection Bureau",
+      "slug": "consumer-financial-protection-bureau"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/cuba.json",
+      "name": "Cuba",
+      "slug": "cuba"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/daca.json",
+      "name": "DACA",
+      "slug": "daca"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/department-of-veterans-affairs.json",
+      "name": "Department of Veterans Affairs",
+      "slug": "department-of-veterans-affairs"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/election-administration.json",
+      "name": "Election administration",
+      "slug": "election-administration"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/election-fraud.json",
+      "name": "Election fraud",
+      "slug": "election-fraud"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/flood-insurance.json",
+      "name": "Flood insurance",
+      "slug": "flood-insurance"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/great-lakes.json",
+      "name": "Great Lakes",
+      "slug": "great-lakes"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/greenhouse-gases.json",
+      "name": "Greenhouse gases",
+      "slug": "greenhouse-gases"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/heroin.json",
+      "name": "Heroin",
+      "slug": "heroin"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/immigration.json",
+      "name": "Immigration",
+      "slug": "immigration"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/immigration.json",
+      "name": "Immigration",
+      "slug": "immigration"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/immigration-policy.json",
+      "name": "Immigration policy",
+      "slug": "immigration-policy"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/impeachments.json",
+      "name": "Impeachments",
+      "slug": "impeachments"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/intelligence-activities-surveillance-classified-information.json",
+      "name": "Intelligence activities, surveillance, classified information",
+      "slug": "intelligence-activities-surveillance-classified-information"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/iran.json",
+      "name": "Iran",
+      "slug": "iran"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/james-comey.json",
+      "name": "James Comey",
+      "slug": "james-comey"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/jeff-sessions.json",
+      "name": "Jeff Sessions",
+      "slug": "jeff-sessions"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/kurds.json",
+      "name": "Kurds",
+      "slug": "kurds"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/medicare.json",
+      "name": "Medicare",
+      "slug": "medicare"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/memorial-day.json",
+      "name": "Memorial Day",
+      "slug": "memorial-day"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/methane.json",
+      "name": "Methane",
+      "slug": "methane"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/national-monuments.json",
+      "name": "National monuments",
+      "slug": "national-monuments"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/neil-gorsuch.json",
+      "name": "Neil Gorsuch",
+      "slug": "neil-gorsuch"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/north-korea.json",
+      "name": "North Korea",
+      "slug": "north-korea"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/opioids.json",
+      "name": "Opioids",
+      "slug": "opioids"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/prescription-pricing.json",
+      "name": "Prescription pricing",
+      "slug": "prescription-pricing"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/puerto-rico.json",
+      "name": "Puerto Rico",
+      "slug": "puerto-rico"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/qatar.json",
+      "name": "Qatar",
+      "slug": "qatar"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/russia.json",
+      "name": "Russia",
+      "slug": "russia"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/sentencing-guidelines.json",
+      "name": "Sentencing guidelines",
+      "slug": "sentencing-guidelines"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/september-11-2001.json",
+      "name": "September 11, 2001",
+      "slug": "september-11-2001"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/smoking-and-youth.json",
+      "name": "Smoking and youth",
+      "slug": "smoking-and-youth"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/somalia.json",
+      "name": "Somalia",
+      "slug": "somalia"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/steven-mnuchin.json",
+      "name": "Steven Mnuchin",
+      "slug": "steven-mnuchin"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/supreme-court-nominations.json",
+      "name": "Supreme Court nominations",
+      "slug": "supreme-court-nominations"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/tariffs.json",
+      "name": "Tariffs",
+      "slug": "tariffs"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/tax-reform.json",
+      "name": "Tax reform",
+      "slug": "tax-reform"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/tom-price.json",
+      "name": "Tom Price",
+      "slug": "tom-price"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/trade-agreements.json",
+      "name": "Trade agreements",
+      "slug": "trade-agreements"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/trade-agreements-and-negotiations.json",
+      "name": "Trade agreements and negotiations",
+      "slug": "trade-agreements-and-negotiations"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/turkey.json",
+      "name": "Turkey",
+      "slug": "turkey"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/vaccines.json",
+      "name": "Vaccines",
+      "slug": "vaccines"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/venezuela.json",
+      "name": "Venezuela",
+      "slug": "venezuela"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/veterans-medical-care.json",
+      "name": "Veterans\u0027 medical care",
+      "slug": "veterans-medical-care"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/visas.json",
+      "name": "Visas",
+      "slug": "visas"
+    },
+    {
+      "api_uri": "https://api.propublica.org/congress/v1/statements/subject/water.json",
+      "name": "Water",
+      "slug": "water"
+    }
+  ]
+}
